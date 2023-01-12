@@ -1,0 +1,112 @@
+Title: Data Analysis through dashboard
+
+
+Description:
+Single page application for desktop where users could register, upload
+a spreadsheet with data and see the dashboard with graphs.
+
+Extra functionalities:
+Share spreadsheet through the internal system for other users to see (not edit);
+Internal Form could be filled and the information would go to a spreadsheet;
+
+
+
+Images:
+project1_overview.png
+project1_environment.png
+project1_form_video.mov
+project1_collections.png
+
+
+
+Tech stack:
+
+Frontend: React, Chart.js, apexcharts, bootstrap
+Backend: 
+Database: 
+Publish site: 
+Duration: 
+
+------------------------
+
+Title: Dynamic prediction of heating temperatura
+
+
+Description:
+Object-oriented programming to handle receiving a new temperature value through bluetooh 
+and calculating updated predictions of when the food would reach a certain temperature.
+Mathematical models like exponential, quadratic and linear models were used to predict the output 
+that would be in how much time the food would reach an inputted temperature.
+Models were compared through validating windows and different type of errors.
+
+
+
+Images:
+
+
+
+Tech stack:
+
+Frontend: -
+Backend: Python
+Libraries/frameworks: Google Colab, matplotlib, numpy, pandas, sklearn
+Database: -
+Publish site: Workflow was done through Google Colab
+Duration: This project lasted 5 months
+
+------------------------
+
+Title: Custom text editor
+
+
+Description:
+A simple frontend was created where the main part was a text editor with some custom and 
+particular functionalities: The client wanted this for songwriters and the editor should allow 
+collapsing paragraphs, seeing a paragraph counter, and allowing some paragraphs to be skipped in the count.
+
+The complexity of this project was in the interaction between the user and the text editor. Almost everything
+needed to be coded from scratch in Javascript, since I needed for example to display some text 
+in the editor that was not the actual complete text given the collapsed lines.
+Special care had to be considered to avoid losing the user's work.
+
+
+Images:
+
+
+
+Tech stack:
+
+Frontend: React (mostly plain Javascript), html, css
+Backend: Python, Django
+Database: Postgresql for users and for storing the lyrics/text.
+Publish site: Render
+Duration: 1 month
+
+------------------------
+
+Title: Dashboard for Solar Energy Network
+
+
+Description:
+Web app with dashboard showing user's information of production and effectivity of their solar 
+system (panels installed in their home, office, etc.).
+There were two external APIs with the production information and one other API with the expected 
+production information (PVWatts).
+Depending on the installed system of the user the actual production was obtained from the 
+corresponding API and compared with the expected production, showing a bar graph of the values per 
+day, month or the whole year.
+
+
+Images:
+
+
+
+Tech stack:
+
+Frontend: React, html, cssc, Chart.js, bootstrap
+Backend: Python, Django
+Database: Postgresql
+Publish site: Heroku
+Duration: 3 months
+
+------------------------

@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Mazzard;
+    src: url("fonts/MazzardH-ExtraLight.otf") format("opentype");
+}
+
+body {
+    min-height: 100vh;
+    background: var(--variableBackgroundColor);
+    font-family: Mazzard, sans-serif;
+}
+
+.title-font {
+    font-family: 'Georgia';
+}
+
+#presentationDiv {
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    text-align: center;
+    color: #ffffff;
+}

@@ -4,24 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <title>My personal site</title>
-    <link href="index.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/custom_footer.css" rel="stylesheet">
+    <script src="js/header.js"></script>
+    <script src="js/custom_footer.js"></script>
 </head>
 
 <body>
-    <script type="text/jsx" src="index.js"></script>
-    <div style="display: flex;">
-
-        <div id="headerDiv">
-            <div>
-                <h2 class="title-font" id="nameHeader">Sebastian Cherny.</h2>
-            </div>
-            <div id="headerButtonsDiv">
-                <a class="headerButton" href="index.html">work</a>
-                <a class="headerButton" href="about.html">about</a>
-                <a class="headerButton" href="contact.html">contact</a>
-            </div>
-        </div>
-    </div>
+    <custom-header></custom-header>
     <div id="presentationDiv">
         <h1 class="title-font">Hi, I'm Sebastian.</h1>
         <br />
@@ -38,9 +30,9 @@
         <div class="lookbook-grid" role="region">
 
             <figure class="model">
-                <img src="images/img1.png" />
+                <img src="images/data-analysis-project/project1_environment.png" />
                 <figcaption class="model--caption">
-                    <h3 class="model-hed"><a href="project1.html">Dashboard for Data Analysis</a></h3>
+                    <h3 class="model-hed"><a href="project1.html">Dashboard for Companies' Data Analysis</a></h3>
                     <p>Web to upload spreadsheets from computer and see graphs of data in a dashboard.</p>
                     <p></p>
                     <p></p>
@@ -48,87 +40,40 @@
             </figure>
 
             <figure class="model">
-                <img src="images/img2.png" />
+                <img src="images/solar-energy-project/img2.png" />
                 <figcaption class="model--caption">
-                    <h3 class="model-hed"><a href="#">Scores Baserunner</a></h3>
-                    <p>Scores is wearing a size X <a href="#">item</a> in colorway Y
-                    <p>
+                    <h3 class="model-hed"><a href="project1.html">Dashboard for Viewing Solar System Data</a></h3>
+                    <p>Web to compare expected and actual production of installed solar systems.</p>
+                    <p></p>
+                    <p></p>
                 </figcaption>
             </figure>
 
             <figure class="model">
-                <img src="images/img3.png" />
+                <img src="images/text-editor-project/project2_shot.png" />
                 <figcaption class="model--caption">
-                    <h3 class="model-hed">Scores Baserunner</h3>
-                    <p>Scores is 5'5", wearing a size S <a href="#">Fridays Away Blaseball Jersey</a>.
-                    <p>
+                    <h3 class="model-hed"><a href="project1.html">Custom Text Editor</a></h3>
+                    <p>Web with text editor to easily edit and save text (songwriting).</p>
+                    <p></p>
+                    <p></p>
                 </figcaption>
             </figure>
 
             <figure class="model">
-                <img src="images/img1.png" />
+                <img src="images/heating-prediction-project/img2.png" />
                 <figcaption class="model--caption">
-                    <h3 class="model-hed">Scores Baserunner</h3>
-                    <p>Scores is wearing a size X <a href="#">item</a> in colorway Y
-                    <p>
+                    <h3 class="model-hed"><a href="project1.html">Math Algorithm to predict food heating</a></h3>
+                    <p>Algorithm to dynamically read new values from sensors and predict heating time.</p>
+                    <p></p>
+                    <p></p>
                 </figcaption>
             </figure>
 
-            <figure class="model">
-                <img src="images/img3.png" />
-                <figcaption class="model--caption">
-                    <h3 class="model-hed">Scores Baserunner</h3>
-                    <p>Scores is wearing a size X <a href="#">item</a> in colorway Y
-                    <p>
-                </figcaption>
-            </figure>
 
-            <figure class="model">
-                <img src="images/img2.png" />
-                <figcaption class="model--caption">
-                    <h3 class="model-hed">Scores Baserunner</h3>
-                    <p>Scores is wearing a size X <a href="#">item</a> in colorway Y
-                    <p>
-                </figcaption>
-            </figure>
-
-            <figure class="model">
-                <img src="https://assets.codepen.io/t-1869/fridays2.png" />
-                <figcaption class="model--caption">
-                    <h3 class="model-hed">Scores Baserunner</h3>
-                    <p>Scores is wearing a size X <a href="#">item</a> in colorway Y
-                    <p>
-                </figcaption>
-            </figure>
-
-            <figure class="model">
-                <img src="https://assets.codepen.io/t-1869/fridays.png" />
-                <figcaption class="model--caption">
-                    <h3 class="model-hed">Scores Baserunner</h3>
-                    <p>Scores is wearing a size X <a href="#">item</a> in colorway Y
-                    <p>
-                </figcaption>
-            </figure>
-
-            <figure class="model">
-                <img src="https://assets.codepen.io/t-1869/fridays.png" />
-                <figcaption class="model--caption">
-                    <h3 class="model-hed">Scores Baserunner</h3>
-                    <p>Scores is wearing a size X <a href="#">item</a> in colorway Y
-                    <p>
-                </figcaption>
-            </figure>
-
-            <figure class="model">
-                <img src="https://assets.codepen.io/t-1869/fridays.png" />
-                <figcaption class="model--caption">
-                    <h3 class="model-hed">Scores Baserunner</h3>
-                    <p>Scores is wearing a size X <a href="#">item</a> in colorway Y
-                    <p>
-                </figcaption>
-            </figure>
         </div>
     </div>
+
+    <custom-footer></custom-footer>
     <script>
 
     </script>

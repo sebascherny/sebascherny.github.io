@@ -1,0 +1,30 @@
+#headerDiv {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 67%;
+    background: var(--variableBackgroundColor);
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+#headerButtonsDiv {
+    align-self: center;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 3em;
+}
+
+.headerButton {
+    background-color: inherit;
+    color: #ffffff;
+    border: none;
+}
+
+#nameHeader {
+    color: #ffffff;
+    margin-left: 1em;
+}
