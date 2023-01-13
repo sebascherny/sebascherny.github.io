@@ -92,31 +92,6 @@ img {
     border-radius: 2%;
 }
 
-.model {
-    margin: 0;
-    position: relative;
-}
-
-
-p {
-    font-size: .9375em;
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    color: #fff;
-    line-height: 1.5;
-    margin: 0 0 .5em 0;
-}
-
-.model-hed {
-    font-family: Lora, serif;
-    color: #ffffff;
-}
-
-a {
-    color: #fff;
-    text-decoration-color: rgba(255, 255, 255, .5);
-}
 
 @media(min-width: 45em) {
     .lookbook-grid {

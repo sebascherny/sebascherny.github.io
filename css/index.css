@@ -58,7 +58,7 @@ p {
 
 a {
     color: #fff;
-    text-decoration-color: rgba(255, 255, 255, .5);
+    text-decoration: none;
 }
 
 @media(min-width: 45em) {

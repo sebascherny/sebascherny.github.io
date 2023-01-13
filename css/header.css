@@ -22,9 +22,10 @@
     background-color: inherit;
     color: #ffffff;
     border: none;
+    text-decoration: none;
 }
 
-@media(max-width: 500px) {
+@media(max-width: 650px) {
     .headerButton {
         font-size: 25px;
     }
@@ -33,4 +34,9 @@
 #nameHeader {
     color: #ffffff;
     margin-left: 1em;
+}
+
+#nameHeaderLink {
+    color: #ffffff;
+    text-decoration: none;
 }

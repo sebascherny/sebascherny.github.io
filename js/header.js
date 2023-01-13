@@ -8,7 +8,11 @@ class Header extends HTMLElement {
         <div style="display: flex;">
             <div id="headerDiv">
                 <div>
-                    <h2 class="title-font" id="nameHeader">Sebastian Cherny.</h2>
+                    <h2 class="title-font" id="nameHeader">
+                        <a class="title-font" id="nameHeaderLink" href="index.html">
+                            Sebastian Cherny.
+                        </a>
+                    </h2>
                 </div>
                 <div id="headerButtonsDiv">
                     <a class="headerButton" href="index.html">work</a>
