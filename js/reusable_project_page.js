@@ -8,7 +8,11 @@ class ReusableProjectElement extends HTMLElement {
         <div id="presentationDiv">
             <h1 class="title-font">${this.attributes.projectName.value}</h1>
             <br />
-            <img src="${this.attributes.image1.value}" />
+            <img src="${this.attributes.logo.value}" />
+            <div style="display:flex; margin-top: 2%">
+            <img style="width: 49%; margin-right: 2%" src="${this.attributes.image1.value}" />
+            <img style="width: 49%;" src="${this.attributes.image2.value}" />
+            </div>
             <br />
             <label>
                 ${this.attributes.description.value}
