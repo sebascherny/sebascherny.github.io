@@ -5,9 +5,23 @@
     <meta charset="UTF-8">
     <title>My personal site</title>
     <link href="css/common.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e17930e95a.js" crossorigin="anonymous"></script>
     <style>
         :root {
             --variableBackgroundColor: #4e5d4e;
+        }
+
+        .link_with_icon {
+            text-decoration: none;
+            color: inherit;
+            margin-right: 0.5em;
+            font-size: 24px;
+        }
+
+        .fa-gmail {
+            content: url('gmail.svg');
+            height: 1em;
+            width: auto;
         }
     </style>
     <link href="css/header.css" rel="stylesheet">
@@ -16,27 +30,42 @@
 
 <body>
     <custom-header></custom-header>
-    <div style="display:flex; color: white; padding-top: 20%;
-    padding-bottom: 20%;
-    text-align: center;">
-        <h1 class="title-font" style="width: 100%; text-align: left; padding-left: 1em;">ABOUT ME.</h1>
-        <br />
-        <br />
-        <label style="padding-left: 20%;">
-            I made this project for a client that wanted to analyze data and have a system
-            where their own clients could see the analysis too.
+    <div style="display:flex; color: white; padding-top: 10%;
+    padding-bottom: 20%; width: 100%">
+        <div style="min-width: 40%;">
+            <h1 class="title-font" style="width: 100%; text-align: left; padding-left: 1em;">ABOUT ME.</h1>
+        </div>
+        <div style="padding-left: 10%; padding-right: 5%; display: grid;">
+            <label>
+                I made this project for a client that wanted to analyze data and have a system
+                where their own clients could see the analysis too.
 
-            Tech stack:
-            Frontend: React, HTML, CSS, Bootstrap
-            Backend: Python, Django
-            Database: Postgresql
-            Duration: 1 month from nothing to publish it on <a>Render.</a>
+                Tech stack:
+                Frontend: React, HTML, CSS, Bootstrap
+                Backend: Python, Django
+                Database: Postgresql
+                Duration: 1 month from nothing to publish it on <a>Render.</a>
+            </label>
+            <br />
 
-        </label>
-    </div>
-
-    <div style="width: 100%; height: 100%; text-align: center;">
-        <img src="CV/CV_Sebastian_Cherny.png" />
+            <label>
+                <span style="margin-right: 0.5em" class="fab fa-gmail fa-xs"></span> sebascherny@gmail.com
+            </label>
+            <br />
+            <div>
+                <a target="blank" title="linkedin" class="link_with_icon"
+                    href="https://www.linkedin.com/in/sebastian-cherny-a03386b0/">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a target="blank" title="github" class="link_with_icon" href="https://www.github.com/sebacherny">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a target="blank" title="CV" class="link_with_icon" href="CV/CV_Sebastian_Cherny.pdf"
+                    download="CV_Sebastian_Cherny">
+                    <i class="fa fa-file-pdf-o"></i>
+                </a>
+            </div>
+        </div>
     </div>
 
 

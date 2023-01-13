@@ -1,21 +1,21 @@
 #headerDiv {
-    position: fixed;
     display: flex;
     align-items: center;
+    /*position: fixed;
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: 67%;
+    z-index: 1;*/
     background: var(--variableBackgroundColor);
     width: 100%;
-    top: 0;
-    z-index: 1;
+    padding-top: 1em;
 }
 
 #headerButtonsDiv {
     align-self: center;
     text-align: right;
     margin-left: auto;
-    margin-right: 3em;
+    margin-right: 2em;
 }
 
 .headerButton {
@@ -23,9 +23,10 @@
     color: #ffffff;
     border: none;
     text-decoration: none;
+    margin-left: 1.5em;
 }
 
-@media(max-width: 650px) {
+@media(max-width: 800px) {
     .headerButton {
         font-size: 25px;
     }
