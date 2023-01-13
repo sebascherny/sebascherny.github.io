@@ -38,7 +38,7 @@
 }
 
 
-@media screen and (max-width: 120) and (min-width: 750px) {
+@media screen and (max-width: 1200px) and (min-width: 750px) {
     .headerButton {
         font-size: 35px;
     }
@@ -50,8 +50,6 @@
     }
 
     #nameHeader {
-        color: #ffffff;
-        margin-left: 1em;
         font-size: 25px;
     }
 }
