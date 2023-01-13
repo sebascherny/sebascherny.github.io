@@ -26,9 +26,9 @@
     margin-left: 1.5em;
 }
 
-@media(max-width: 1200px) {
+@media(max-width: 900px) {
     .headerButton {
-        font-size: 55px;
+        font-size: 35px;
     }
 }
 
