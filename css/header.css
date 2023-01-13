@@ -24,7 +24,7 @@
     border: none;
 }
 
-@media(max-width: 75px) {
+@media(max-width: 500px) {
     .headerButton {
         font-size: 25px;
     }
