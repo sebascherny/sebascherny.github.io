@@ -1,0 +1,47 @@
+input,
+textarea,
+#submitButton {
+    background-color: var(--variableBackgroundColor);
+    border-color: white;
+    border-width: 1px;
+    border-radius: 3px;
+    border-style: solid;
+    color: white;
+    font-family: Mazzard, sans-serif;
+}
+
+input {
+    height: 35px;
+}
+
+input,
+textarea {
+    width: 80%;
+}
+
+#submitButton {
+    height: 35px;
+    float: left;
+    margin-left: 10%;
+    text-align: center;
+    padding: 9px 15px;
+}
+
+#submitButton:hover {
+    background-color: white;
+    color: var(--variableBackgroundColor);
+    cursor: pointer;
+}
+
+form {
+    width: 100%;
+}
+
+#contactDiv {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    text-align: center;
+    color: #ffffff;
+}

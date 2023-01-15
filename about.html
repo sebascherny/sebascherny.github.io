@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <title>My personal site</title>
-    <link href="css/common.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e17930e95a.js" crossorigin="anonymous"></script>
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/about.css" rel="stylesheet">
     <style>
         :root {
             --variableBackgroundColor: #4e5d4e;
@@ -19,7 +20,7 @@
         }
 
         .fa-gmail {
-            content: url('gmail.svg');
+            content: url('images/gmail.svg');
             height: 24px;
             width: 24px;
         }
@@ -32,40 +33,48 @@
 
 <body>
     <custom-header></custom-header>
-    <div style="display:flex; color: white; padding-top: 10%;
-    padding-bottom: 20%; width: 100%">
-        <div style="min-width: 40%;">
-            <h1 class="title-font" style="width: 100%; text-align: left; padding-left: 1em;">ABOUT ME.</h1>
-        </div>
-        <div style="padding-left: 10%; padding-right: 5%; display: grid;">
-            <label>
-                I made this project for a client that wanted to analyze data and have a system
-                where their own clients could see the analysis too.
+    <div>
+        <div id="aboutDiv">
+            <div id="pictureDiv">
+                <h1 id="aboutMeH1" class="title-font">about me.</h1>
+                <img style="border-radius: 50%;" src="images/selfie_laboral.jpg">
+            </div>
+            <div id="aboutTextDiv">
+                <label>
+                    I made this project for a client that wanted to analyze data and have a system
+                    where their own clients could see the analysis too.
 
-                Tech stack:
-                Frontend: React, HTML, CSS, Bootstrap
-                Backend: Python, Django
-                Database: Postgresql
-                Duration: 1 month from nothing to publish it on <a>Render.</a>
-            </label>
-            <br />
+                    Tech stack:
+                    Frontend: React, HTML, CSS, Bootstrap
+                    Backend: Python, Django
+                    Database: Postgresql
+                    Duration: 1 month from nothing to publish it on <a>Render.</a>
 
-            <label>
-                <span style="margin-right: 0.5em" class="fab fa-gmail"></span> sebascherny@gmail.com
-            </label>
-            <br />
-            <div>
-                <a target="blank" title="linkedin" class="link_with_icon"
-                    href="https://www.linkedin.com/in/sebastian-cherny-a03386b0/">
-                    <i class="fa-brands fa-linkedin"></i>
-                </a>
-                <a target="blank" title="github" class="link_with_icon" href="https://www.github.com/sebacherny">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-                <a target="blank" title="CV" class="link_with_icon" href="CV/CV_Sebastian_Cherny.pdf"
-                    download="CV_Sebastian_Cherny">
-                    <i class="fa fa-file-pdf-o"></i>
-                </a>
+                    I made this project for a client that wanted to analyze data and have a system
+                    where their own clients could see the analysis too.
+                </label>
+
+                <div>
+                    <label>
+                        <span style="margin-right: 0.5em" class="fab fa-gmail"></span>
+                        <label style="bottom: 5%; position: relative">
+                            sebascherny@gmail.com
+                        </label>
+                    </label>
+                </div>
+                <div>
+                    <a target="blank" title="linkedin" class="link_with_icon"
+                        href="https://www.linkedin.com/in/sebastian-cherny-a03386b0/">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a target="blank" title="github" class="link_with_icon" href="https://www.github.com/sebacherny">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a target="blank" title="CV" class="link_with_icon" href="CV/CV_Sebastian_Cherny.pdf"
+                        download="CV_Sebastian_Cherny">
+                        <i class="fa fa-file-pdf-o"></i>
+                    </a>
+                </div>
             </div>
         </div>
     </div>

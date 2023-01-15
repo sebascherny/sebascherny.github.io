@@ -3,6 +3,11 @@
     src: url("fonts/MazzardH-ExtraLight.otf") format("opentype");
 }
 
+@font-face {
+    font-family: MazzardBold;
+    src: url("fonts/MazzardH-Bold.otf") format("opentype");
+}
+
 body {
     background: var(--variableBackgroundColor);
     font-family: Mazzard, sans-serif;

@@ -18,7 +18,7 @@ class CustomFooter extends HTMLElement {
 
                 <div>
                 <i class="fa fa-envelope"></i>
-                <p><a style="color: white;" href="mailto:support@company.com">sebascherny@gmail.com</a></p>
+                <p><a style="color: white;" href="mailto:sebascherny@gmail.com">sebascherny@gmail.com</a></p>
                 </div>
 
             </div>
@@ -27,8 +27,11 @@ class CustomFooter extends HTMLElement {
 
                 <div class="footer-icons">
 
-                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                    <a href="#"><i class="fa fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/sebastian-cherny-a03386b0/"
+                    target="blank"
+                    ><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.github.com/sebacherny"
+                    target="blank"><i class="fa fa-github"></i></a>
 
                 </div>
 

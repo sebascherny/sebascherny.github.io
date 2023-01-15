@@ -15,17 +15,35 @@
     <script src="js/header.js"></script>
     <link href="css/custom_footer.css" rel="stylesheet">
     <script src="js/custom_footer.js"></script>
+    <link href="css/contact.css" rel="stylesheet">
 </head>
 
 <body>
     <custom-header></custom-header>
-    <div id="presentationDiv">
-        <h1 class="title-font">CONTACT ME.</h1>
+    <div id="contactDiv">
+        <h1 class="title-font">don't be a stranger.</h1>
+        <label>Send me a message here or email me at <a style="color: white; text-decoration: none;"
+                href="mailto:sebascherny@gmail.com">sebascherny@gmail.com</a></label>
         <br />
         <br />
         <form>
-            <label>Name</label><input type="text" name="name" />
-            <button type="submit">Send message</button>
+            <div style="margin-bottom: 2em;">
+                <label style="float: left; margin-left: 10%">Name</label>
+                <br />
+                <input id="nameInput" type="text" name="name" required>
+            </div>
+            <div style="margin-bottom: 2em;">
+                <label style="float: left; margin-left: 10%">Mail</label>
+                <br />
+                <input id="mailInput" type="mail" name="mail" required pattern=".+@.+\..+">
+            </div>
+            <div style="margin-bottom: 2em;">
+                <label style="float: left; margin-left: 10%">Message</label>
+                <br />
+                <textarea required id="messageTextarea" style="height: 80px;" type="text" name="message"></textarea>
+            </div>
+            <p id="thanksMessage" style="display: none">Thanks! I'll be in touch soon :)</p>
+            <button id="submitButton" type="submit" onclick="return sendMessage();">Submit</button>
         </form>
         <br />
     </div>
@@ -33,7 +51,25 @@
 
 
     <script>
-
+        function sendMessage() {
+            const name = document.getElementById('nameInput').value;
+            const mail = document.getElementById('mailInput').value;
+            const message = document.getElementById('messageTextarea').value;
+            if (!name) {
+                return true;
+            }
+            if (!mail || mail.match('.+@.+\\..+') == null) {
+                return true;
+            }
+            if (!message) {
+                return true;
+            }
+            document.getElementById('thanksMessage').style.display = 'block';
+            document.getElementById('nameInput').value = '';
+            document.getElementById('mailInput').value = '';
+            document.getElementById('messageTextarea').value = '';
+            return false;
+        }
     </script>
 </body>
 

@@ -1,63 +1,14 @@
-@font-face {
-    font-family: Mazzard;
-    src: url("fonts/MazzardH-ExtraLight.otf") format("opentype");
-}
-
 :root {
     --variableBackgroundColor: #351028;
 }
 
-body {
-    min-height: 100vh;
-    background: var(--variableBackgroundColor);
-    font-family: Mazzard, sans-serif;
-}
-
-.title-font {
-    font-family: 'Times New Roman';
-}
-
-#headerDiv {
-    position: fixed;
-    display: flex;
-    align-items: center;
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 67%;
-    background: var(--variableBackgroundColor);
-    width: 100%;
-    top: 0;
-    z-index: 1;
-}
-
-#headerButtonsDiv {
-    align-self: center;
-    text-align: right;
-    margin-left: auto;
-    margin-right: 3em;
-}
-
-.headerButton {
-    background-color: inherit;
-    color: #ffffff;
-    border: none;
-}
-
-#nameHeader {
-    color: #ffffff;
-    margin-left: 1em;
-}
-
-#presentationDiv {
-    padding-left: 30%;
-    padding-right: 30%;
-    padding-top: 20%;
-    padding-bottom: 20%;
-    text-align: center;
+#projectDescriptionDiv {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10%;
+    padding-bottom: 5%;
     color: #ffffff;
 }
-
-
 
 /* For photo gallery */
 
@@ -85,7 +36,6 @@ body {
 }
 
 img {
-    min-width: 10em;
     max-width: 100%;
     display: block;
     background: #ddd;
