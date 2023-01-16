@@ -5,6 +5,7 @@ body {
 #presentationText {
     display: flex;
     text-align: justify;
+    font-size: 3vh;
 }
 
 img {
@@ -43,9 +44,9 @@ p {
     position: relative;
     padding-top: 25vh;
     padding-bottom: 0vw;
-    padding-left: 12vw;
-    padding-right: 12vw;
-    font-size: 120%;
+    padding-left: 30vw;
+    padding-right: 30vw;
+    font-size: 100%;
     flex: 1;
 }
 
@@ -60,9 +61,8 @@ p {
     padding-left: 5%;
     padding-bottom: 0px;
     margin-block-end: 10px;
+    text-align: left;
 }
-
-#presentationText {}
 
 .lookbook-gallery {
     padding-right: 10%;
@@ -85,6 +85,11 @@ p {
     font-size: 24px;
     text-align: center;
     display: inline-block;
+    width: 100%;
+}
+
+.link_with_icon_index img {
+    width: 100%;
 }
 
 .model {
@@ -111,9 +116,9 @@ p {
     }
 
     #presentationDiv {
-        padding-left: 30vw;
-        padding-right: 30vw;
-        font-size: 100%;
+        padding-left: 12vw;
+        padding-right: 12vw;
+        font-size: 120%;
     }
 
     #blockDiv {
