@@ -20,7 +20,7 @@
 
 body {
     font-family: var(--variableFontText), sans-serif;
-    font-size: 15px;
+    font-size: 3vh;
     line-height: 1.5;
     font-weight: 300;
 }
