@@ -1,5 +1,5 @@
-:root {
-    --variableBackgroundColor: #351028;
+body {
+    background-color: var(--variableBackgroundColor);
 }
 
 /* For photo gallery */
@@ -100,7 +100,12 @@ a {
 
 /* END */
 
-
+.link_with_icon_index {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 0.5em;
+    font-size: 24px;
+}
 
 
 

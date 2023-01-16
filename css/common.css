@@ -8,13 +8,21 @@
     src: url("fonts/MazzardH-Bold.otf") format("opentype");
 }
 
+:root {
+    --variableBackgroundColor: #351028;
+    --variableFontColor: #e9e9ed;
+    --variableFontText: Karma;
+    --variableFontTitle: Commissioner;
+}
+
+
+
 body {
-    background: var(--variableBackgroundColor);
-    font-family: Mazzard, sans-serif;
+    font-family: var(--variableFontText), sans-serif;
 }
 
 .title-font {
-    font-family: 'Georgia';
+    font-family: var(--variableFontTitle), sans-serif;
 }
 
 #presentationDiv {

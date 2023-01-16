@@ -1,3 +1,7 @@
+body {
+    background: var(--variableBackgroundColor);
+}
+
 input,
 textarea,
 #submitButton {
@@ -6,8 +10,8 @@ textarea,
     border-width: 1px;
     border-radius: 3px;
     border-style: solid;
-    color: white;
-    font-family: Mazzard, sans-serif;
+    color: var(--variableFontColor);
+    font-family: var(--variableFontText), sans-serif;
 }
 
 input {

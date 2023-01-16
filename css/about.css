@@ -1,3 +1,7 @@
+body {
+    background: var(--variableBackgroundColor);
+}
+
 #pictureDiv {
     min-width: 40%;
     display: flex;
@@ -38,4 +42,17 @@
     #aboutTextDiv {
         width: 80%;
     }
+}
+
+.link_with_icon {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 0.5em;
+    font-size: 24px;
+}
+
+.fa-gmail {
+    content: url('../images/gmail.svg');
+    height: 24px;
+    width: 24px;
 }

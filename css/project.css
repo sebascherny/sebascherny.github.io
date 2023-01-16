@@ -1,5 +1,5 @@
-:root {
-    --variableBackgroundColor: #351028;
+body {
+    background: var(--variableBackgroundColor);
 }
 
 #projectDescriptionDiv {
