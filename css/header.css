@@ -60,3 +60,13 @@
     color: #ffffff;
     text-decoration: none;
 }
+
+@media (min-width: 800px) {
+    .headerButton {
+        font-size: 250%;
+    }
+
+    #nameHeader {
+        font-size: 40px;
+    }
+}

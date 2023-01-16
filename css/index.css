@@ -38,10 +38,10 @@ p {
 #presentationDiv {
     text-align: center;
     color: #ffffff;
-    height: 58vh;
+    height: auto;
     width: 100%;
     position: relative;
-    padding-top: 15%;
+    padding-top: 15vw;
     padding-bottom: 0vw;
     padding-left: 30%;
     padding-right: 30%;
@@ -87,12 +87,28 @@ p {
 .model {
     text-align: center;
     display: inline-block;
+    width: 100%;
 }
 
-@media (max-width: 800px) {
+@media (min-width: 800px) {
     .lookbook-grid {
         grid-template-rows: auto;
         grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 800px) {
+    #presentationDiv {
+        padding-top: 25vw;
+    }
+
+    #blockDiv {
+        height: 15vh;
+    }
+
+    .link_with_icon_index {
+        position: relative;
+        left: 20%;
     }
 }
 

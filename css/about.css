@@ -39,23 +39,9 @@ body {
     height: 1em;
 }
 
-#iconsDiv, #mailDiv {
+#iconsDiv,
+#mailDiv {
     text-align: center;
-}
-
-@media screen and (max-width: 880px) {
-    #pictureDiv {
-        max-width: 80%;
-        margin-bottom: 2em;
-    }
-
-    #aboutDiv {
-        display: block;
-    }
-
-    #aboutTextDiv {
-        width: 80%;
-    }
 }
 
 .link_with_icon {
@@ -69,4 +55,22 @@ body {
     content: url('../images/gmail.svg');
     height: 24px;
     width: 24px;
+}
+
+@media (min-width: 880px) {
+    #pictureDiv {
+        position: relative;
+        left: 25%;
+        max-width: 80%;
+        margin-bottom: 2em;
+    }
+
+    #aboutDiv {
+        display: block;
+        padding-top: 15vh;
+    }
+
+    #aboutTextDiv {
+        width: 80%;
+    }
 }
