@@ -26,7 +26,7 @@
             font-weight: bold;" href="mailto:sebascherny@gmail.com">sebascherny@gmail.com</a></label>
         <div id="blockDiv">
         </div>
-        <form>
+        <form style="display: none;">
             <div class="form_div">
                 <label class="form_label">Name</label>
                 <br />
@@ -63,10 +63,12 @@
             if (!message) {
                 return true;
             }
+            /*
             document.getElementById('thanksMessage').style.display = 'block';
             document.getElementById('nameInput').value = '';
             document.getElementById('mailInput').value = '';
             document.getElementById('messageTextarea').value = '';
+            */
             return false;
         }
     </script>
