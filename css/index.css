@@ -43,8 +43,9 @@ p {
     position: relative;
     padding-top: 25vh;
     padding-bottom: 0vw;
-    padding-left: 30%;
-    padding-right: 30%;
+    padding-left: 12vw;
+    padding-right: 12vw;
+    font-size: 120%;
     flex: 1;
 }
 
@@ -110,6 +111,9 @@ p {
     }
 
     #presentationDiv {
+        padding-left: 30vw;
+        padding-right: 30vw;
+        font-size: 100%;
     }
 
     #blockDiv {
