@@ -32,6 +32,10 @@ body {
     row-gap: 20px;
 }
 
+#aboutTextDiv label {
+    text-align: justify;
+}
+
 #hiH2 {
     font-size: 200%;
     padding: 0 0 0 0;
