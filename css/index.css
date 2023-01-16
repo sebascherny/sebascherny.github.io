@@ -82,6 +82,8 @@ p {
     color: inherit;
     margin-right: 0.5em;
     font-size: 24px;
+    text-align: center;
+    display: inline-block;
 }
 
 .model {
@@ -104,10 +106,6 @@ p {
         height: 15vh;
     }
 
-    .link_with_icon_index {
-        position: relative;
-        left: 20%;
-    }
 }
 
 
