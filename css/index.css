@@ -90,14 +90,12 @@ p {
     width: 100%;
 }
 
-@media (min-width: 800px) {
+@media (max-width: 800px) {
     .lookbook-grid {
         grid-template-rows: auto;
         grid-template-columns: 1fr;
     }
-}
 
-@media (min-width: 800px) {
     #presentationDiv {
         padding-top: 25vw;
     }

@@ -57,7 +57,7 @@ body {
     width: 24px;
 }
 
-@media (min-width: 880px) {
+@media (max-width: 880px) {
     #pictureDiv {
         position: relative;
         left: 25%;
