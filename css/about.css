@@ -61,7 +61,7 @@ body {
     width: 24px;
 }
 
-@media (max-width: 800px) {
+@media (min-width: 800px) {
     #pictureDiv {
         display: inline-block;
         text-align: center;
