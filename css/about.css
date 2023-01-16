@@ -57,20 +57,21 @@ body {
     width: 24px;
 }
 
-@media (max-width: 800px) {
+@media (min-width: 800px) {
     #pictureDiv {
         position: relative;
-        left: 25%;
-        max-width: 80%;
+        left: 30%;
+        max-width: 100%;
         margin-bottom: 2em;
     }
 
     #aboutDiv {
         display: block;
         padding-top: 15vh;
+        text-align: center;
     }
 
     #aboutTextDiv {
-        width: 80%;
+        width: 100%;
     }
 }

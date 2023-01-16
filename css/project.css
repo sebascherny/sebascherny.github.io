@@ -63,3 +63,38 @@ img {
     background: #ddd;
     border-radius: 2%;
 }
+
+#lastImagesDiv {
+    display: flex;
+    margin-top: 2%;
+}
+
+#imgLeft {
+    width: 49%;
+    margin-right: 2%;
+}
+
+#imgRight {
+    width: 49%;
+    margin-right: 2%;
+}
+
+@media (min-width: 800px) {
+    #lastImagesDiv {
+        display: block;
+    }
+
+    #imgLeft {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+
+    #imgRight {
+        width: 100%;
+    }
+
+    #techStack {
+        width: 30vw;
+        font-size: 125%;
+    }
+}
