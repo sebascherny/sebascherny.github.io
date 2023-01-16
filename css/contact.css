@@ -64,7 +64,7 @@ form {
 }
 
 .form_input {
-    padding-bottom: 5vh;
+    font-size: 120%;
 }
 
 @media (min-width: 800px) {
