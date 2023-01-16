@@ -2,29 +2,9 @@ body {
     background-color: var(--variableBackgroundColor);
 }
 
-/* For photo gallery */
-
-/*Inside lookbook galler: */
-
-.a11y-only {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-}
-
-.a11y-only.focusable:active,
-.a11y-only.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
+#presentationText {
+    display: flex;
+    text-align: justify;
 }
 
 img {
@@ -43,7 +23,6 @@ img {
 
 p {
     font-size: .9375em;
-    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 400;
     color: #fff;
@@ -51,54 +30,52 @@ p {
     margin: 0 0 .5em 0;
 }
 
-.model-hed {
-    font-family: Lora, serif;
-    color: #ffffff;
-}
-
-a {
+.model-hed-link {
     color: #fff;
     text-decoration: none;
 }
 
-@media(min-width: 45em) {
-    .lookbook-grid {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .model {
-        flex: 47.5%;
-        margin: .5%;
-    }
+#presentationDiv {
+    text-align: center;
+    color: #ffffff;
+    height: 58vh;
+    width: 100%;
+    position: relative;
+    padding-top: 15%;
+    padding-bottom: 0vw;
+    padding-left: 30%;
+    padding-right: 30%;
+    flex: 1;
 }
 
-@media(min-width: 65em) {
-    .model {
-        flex: 24.25% 0;
-        margin: .25%;
-    }
-
-    @supports(display: grid) {
-        .lookbook-grid {
-            display: grid;
-            grid-gap: .5em;
-            grid-template-columns: repeat(4, minmax(200px, 1fr));
-        }
-
-        .model {
-            margin: 0;
-        }
-
-        /*
-        .model:nth-of-type(2n-1) {
-            grid-row-end: span 2;
-            grid-column-end: span 2;
-        }*/
-    }
+#blockDiv {
+    height: 25vh;
+    display: flex;
 }
 
-/* END */
+#presentationH1 {
+    letter-spacing: 0.03em;
+    font-size: 300%;
+    padding-left: 5%;
+    padding-bottom: 0px;
+    margin-block-end: 10px;
+}
+
+#presentationText {}
+
+.lookbook-gallery {
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.lookbook-grid {
+    display: grid;
+    column-gap: 30px;
+    row-gap: 30px;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+}
 
 .link_with_icon_index {
     text-decoration: none;
@@ -107,9 +84,17 @@ a {
     font-size: 24px;
 }
 
+.model {
+    text-align: center;
+    display: inline-block;
+}
 
-
-
+@media (max-width: 800px) {
+    .lookbook-grid {
+        grid-template-rows: auto;
+        grid-template-columns: 1fr;
+    }
+}
 
 
 

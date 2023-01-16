@@ -5,12 +5,12 @@ class Header extends HTMLElement {
 
     connectedCallback() {
         this.innerHTML = `
-        <div style="display: flex;">
-            <div id="headerDiv">
-                <div>
+        <div id="headerDiv">
+            <div id="navigationDiv">
+                <div id="nameHeaderDiv">
                     <h2 class="title-font" id="nameHeader">
                         <a class="title-font" id="nameHeaderLink" href="index.html">
-                            Sebastian Cherny.
+                            Sebastian.
                         </a>
                     </h2>
                 </div>

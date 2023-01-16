@@ -20,30 +20,29 @@
         <h1 class="title-font">don't be a stranger.</h1>
         <label>Send me a message here or email me at <a style="color: white; text-decoration: none;"
                 href="mailto:sebascherny@gmail.com">sebascherny@gmail.com</a></label>
-        <br />
-        <br />
+        <div id="blockDiv">
+        </div>
         <form>
-            <div style="margin-bottom: 2em;">
-                <label style="float: left; margin-left: 10%">Name</label>
+            <div class="form_div">
+                <label class="form_label">Name</label>
                 <br />
-                <input id="nameInput" type="text" name="name" required>
+                <input class="form_input" id="nameInput" type="text" name="name" required>
             </div>
-            <div style="margin-bottom: 2em;">
-                <label style="float: left; margin-left: 10%">Mail</label>
+            <div class="form_div">
+                <label class="form_label">Mail</label>
                 <br />
-                <input id="mailInput" type="mail" name="mail" required pattern=".+@.+\..+">
+                <input class="form_input" id="mailInput" type="mail" name="mail" required pattern=".+@.+\..+">
             </div>
-            <div style="margin-bottom: 2em;">
-                <label style="float: left; margin-left: 10%">Message</label>
+            <div class="form_div">
+                <label class="form_label">Message</label>
                 <br />
-                <textarea required id="messageTextarea" style="height: 80px;" type="text" name="message"></textarea>
+                <textarea class="form_input" required id="messageTextarea" style="height: 80px;" type="text"
+                    name="message"></textarea>
             </div>
             <p id="thanksMessage" style="display: none">Thanks! I'll be in touch soon :)</p>
             <button id="submitButton" type="submit" onclick="return sendMessage();">Submit</button>
         </form>
-        <br />
     </div>
-    <custom-footer></custom-footer>
 
 
     <script>

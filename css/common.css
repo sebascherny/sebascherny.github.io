@@ -9,27 +9,25 @@
 }
 
 :root {
-    --variableBackgroundColor: #351028;
+    --variableBackgroundColor: #2f2541;
     --variableFontColor: #e9e9ed;
-    --variableFontText: Karma;
-    --variableFontTitle: Commissioner;
+    --variableFontText: 'Commissioner';
+    --variableFontTitle: 'El Messiri';
 }
 
 
 
 body {
     font-family: var(--variableFontText), sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 300;
 }
 
 .title-font {
-    font-family: var(--variableFontTitle), sans-serif;
+    font-family: var(--variableFontTitle);
 }
 
-#presentationDiv {
-    padding-left: 30%;
-    padding-right: 30%;
-    padding-top: 10%;
-    padding-bottom: 20%;
-    text-align: center;
-    color: #ffffff;
+* {
+    box-sizing: border-box;
 }

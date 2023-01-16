@@ -1,38 +1,60 @@
 body {
     background: var(--variableBackgroundColor);
+    color: var(--variableFontColor);
 }
 
 #projectDescriptionDiv {
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 10%;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 5%;
     padding-bottom: 5%;
     color: #ffffff;
 }
 
-/* For photo gallery */
-
-/*Inside lookbook galler: */
-
-.a11y-only {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
+#logoTop {
+    width: 100%;
 }
 
-.a11y-only.focusable:active,
-.a11y-only.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
+#logoTopDiv {
+    padding-top: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 10%;
+    height: 80vh;
+}
+
+#projectDiv {
+    padding-top: 15%;
+}
+
+#overviewDiv {
+    display: flex;
+    margin-top: 5%;
+    padding-top: 2%;
+    border-top: 0.5px solid var(--variableFontColor);
+    margin-bottom: 10vh;
+}
+
+#overviewText {
+    width: 80%;
+    padding-right: 5vw;
+}
+
+#techStack {
+    background-color: #ffc21a;
+    margin-top: 5%;
+    width: 20vw;
+    color: var(--variableBackgroundColor);
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-right: 2.5vw;
+    padding-left: 2.5vw;
+    height: 100%;
+}
+
+.techStackTitle {
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 img {
@@ -41,56 +63,3 @@ img {
     background: #ddd;
     border-radius: 2%;
 }
-
-
-@media(min-width: 45em) {
-    .lookbook-grid {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .model {
-        flex: 47.5%;
-        margin: .5%;
-    }
-}
-
-@media(min-width: 65em) {
-    .model {
-        flex: 24.25% 0;
-        margin: .25%;
-    }
-
-    @supports(display: grid) {
-        .lookbook-grid {
-            display: grid;
-            grid-gap: .5em;
-            grid-template-columns: repeat(4, minmax(200px, 1fr));
-        }
-
-        .model {
-            margin: 0;
-        }
-
-        /*
-        .model:nth-of-type(2n-1) {
-            grid-row-end: span 2;
-            grid-column-end: span 2;
-        }*/
-    }
-}
-
-/* END */
-
-
-
-
-
-
-
-
-
-/*
-
-
-*/

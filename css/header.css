@@ -1,55 +1,62 @@
 #headerDiv {
-    display: flex;
-    align-items: center;
-    /*position: fixed;
+    background-color: var(--variableBackgroundColor);
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: 67%;
-    z-index: 1;*/
-    background: var(--variableBackgroundColor);
-    width: 100%;
-    padding-top: 1em;
+    z-index: 1;
+    display: block;
+    width: 100vw;
+    height: 12vh;
+    padding: 0vh 12vw 0px;
+    border: 1px none;
+    font-size: 0.625rem;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    justify-content: space-between;
+}
+
+#navigationDiv {
+    background-color: var(--variableBackgroundColor);
+    display: flex;
+    width: auto;
+    height: 12vh;
+    padding-left: 0vw;
+    padding-right: 0vw;
+}
+
+#nameHeaderDiv {
+    position: relative;
+    width: 10vw;
+    min-width: 100px;
+    align-self: center;
 }
 
 #headerButtonsDiv {
     align-self: center;
-    text-align: right;
+    flex-direction: row;
+    display: flex;
     margin-left: auto;
-    margin-right: 2em;
 }
 
 .headerButton {
-    background-color: inherit;
-    color: #ffffff;
-    border: none;
+    margin-left: 3vw;
+    font-size: 155%;
+    font-weight: 300;
+    color: #fff;
     text-decoration: none;
-    margin-left: 1.5em;
 }
 
 #nameHeader {
     color: #ffffff;
-    margin-left: 1em;
     font-size: 30px;
 }
 
 #nameHeaderLink {
     color: #ffffff;
     text-decoration: none;
-}
-
-
-@media screen and (max-width: 1200px) and (min-width: 750px) {
-    .headerButton {
-        font-size: 35px;
-    }
-}
-
-@media(max-width: 750px) {
-    .headerButton {
-        font-size: 20px;
-    }
-
-    #nameHeader {
-        font-size: 25px;
-    }
 }
