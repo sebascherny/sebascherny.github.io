@@ -18,8 +18,9 @@
     <custom-header></custom-header>
     <div id="contactDiv">
         <h1 class="title-font">don't be a stranger.</h1>
-        <label>Send me a message here or email me at <a style="color: white; text-decoration: none;"
-                href="mailto:sebascherny@gmail.com">sebascherny@gmail.com</a></label>
+        <label>Send me a message here or email me at
+            <a style="color: var(--variableShinyColor); text-decoration: none;
+            font-weight: bold;" href="mailto:sebascherny@gmail.com">sebascherny@gmail.com</a></label>
         <div id="blockDiv">
         </div>
         <form>
@@ -40,7 +41,7 @@
                     name="message"></textarea>
             </div>
             <p id="thanksMessage" style="display: none">Thanks! I'll be in touch soon :)</p>
-            <button id="submitButton" type="submit" onclick="return sendMessage();">Submit</button>
+            <button class="niceButton" id="submitButton" type="submit" onclick="return sendMessage();">Submit</button>
         </form>
     </div>
 

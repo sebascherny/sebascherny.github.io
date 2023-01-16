@@ -92,14 +92,21 @@ p {
     width: 100%;
 }
 
+
+.model--caption {
+    display: none;
+}
+
+#contactMeButton {
+    height: 35px;
+    text-align: center;
+    padding: 9px 15px;
+}
+
 @media (min-width: 800px) {
     .lookbook-grid {
         grid-template-rows: auto;
         grid-template-columns: 1fr;
-    }
-
-    #presentationDiv {
-        padding-top: 25vw;
     }
 
     #blockDiv {
@@ -107,15 +114,3 @@ p {
     }
 
 }
-
-
-.model--caption {
-    display: none;
-}
-
-
-
-/*
-
-
-*/

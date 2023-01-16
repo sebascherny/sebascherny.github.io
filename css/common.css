@@ -11,6 +11,7 @@
 :root {
     --variableBackgroundColor: #2f2541;
     --variableFontColor: #e9e9ed;
+    --variableShinyColor: #ffc21a;
     --variableFontText: 'Commissioner';
     --variableFontTitle: 'El Messiri';
 }
@@ -30,4 +31,20 @@ body {
 
 * {
     box-sizing: border-box;
+}
+
+.niceButton {
+    background-color: var(--variableShinyColor);
+    border-color: var(--variableShinyColor);
+    border-width: 1px;
+    border-radius: 3px;
+    border-style: solid;
+    color: var(--variableBackgroundColor);
+    font-family: var(--variableFontText), sans-serif;
+}
+
+.niceButton:hover {
+    background-color: var(--variableBackgroundColor);
+    color: var(--variableShinyColor);
+    cursor: pointer;
 }

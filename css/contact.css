@@ -3,8 +3,7 @@ body {
 }
 
 input,
-textarea,
-#submitButton {
+textarea {
     background-color: var(--variableBackgroundColor);
     border-color: white;
     border-width: 1px;
@@ -29,12 +28,6 @@ textarea {
     margin-left: 10%;
     text-align: center;
     padding: 9px 15px;
-}
-
-#submitButton:hover {
-    background-color: white;
-    color: var(--variableBackgroundColor);
-    cursor: pointer;
 }
 
 form {

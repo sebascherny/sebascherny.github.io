@@ -41,7 +41,7 @@ body {
 }
 
 #techStack {
-    background-color: #ffc21a;
+    background-color: var(--variableShinyColor);
     margin-top: 5%;
     width: 20vw;
     color: var(--variableBackgroundColor);
