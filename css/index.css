@@ -38,7 +38,7 @@ p {
 
 #presentationDiv {
     text-align: center;
-    color: #ffffff;
+    color: var(--variableFontColor);
     height: auto;
     width: 100%;
     position: relative;

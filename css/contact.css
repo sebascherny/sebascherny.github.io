@@ -40,7 +40,7 @@ form {
     padding-top: 4%;
     padding-bottom: 5%;
     text-align: center;
-    color: #ffffff;
+    color: var(--variableFontColor);
 }
 
 #blockDiv {
@@ -67,7 +67,7 @@ form {
         padding-top: 15vh;
         padding-bottom: 5%;
         text-align: center;
-        color: #ffffff;
+        color: var(--variableFontColor);
     }
 
     #blockDiv {

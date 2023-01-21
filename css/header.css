@@ -47,17 +47,17 @@
     margin-left: 3vw;
     font-size: 155%;
     font-weight: 300;
-    color: #fff;
+    color: var(--variableFontColor);
     text-decoration: none;
 }
 
 #nameHeader {
-    color: #ffffff;
+    color: var(--variableFontColor);
     font-size: 30px;
 }
 
 #nameHeaderLink {
-    color: #ffffff;
+    color: var(--variableFontColor);
     text-decoration: none;
     font-size: 125%;
 }

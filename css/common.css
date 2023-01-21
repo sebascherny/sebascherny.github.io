@@ -14,9 +14,9 @@
 }
 
 :root {
-    --variableBackgroundColor: #2f2541;
-    --variableFontColor: #e9e9ed;
-    --variableShinyColor: #ffc21a;
+    --variableBackgroundColor: #1e1e1e;
+    --variableFontColor: #ecc8a2;
+    --variableShinyColor: #ecc8a2;
     --variableFontText: 'Nunito';
     --variableFontTitle: 'Dongle';
 }
@@ -26,6 +26,7 @@
 body {
     font-family: var(--variableFontText), sans-serif;
     font-size: 20px;
+    color: var(--variableFontColor);
     line-height: 1.5;
     font-weight: 300;
     padding-bottom: 5vh;

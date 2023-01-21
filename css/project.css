@@ -8,7 +8,7 @@ body {
     padding-right: 12%;
     padding-top: 5%;
     padding-bottom: 0;
-    color: #ffffff;
+    color: var(--variableFontColor);
 }
 
 #logoTop {
