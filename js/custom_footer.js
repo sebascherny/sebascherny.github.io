@@ -5,7 +5,7 @@ class CustomFooter extends HTMLElement {
 
     connectedCallback() {
         this.innerHTML = `
-        <footer class="footer-distributed">
+        <footer style="display: none;" class="footer-distributed">
             <div class="footer-left">
                 <p class="footer-company-name">© 2023 Sebastian Cherny</p>
             </div>

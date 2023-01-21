@@ -5,15 +5,20 @@
 
 @font-face {
     font-family: MazzardBold;
-    src: url("fonts/MazzardH-Bold.otf") format("opentype");
+    src: url("fonts/Mazzard/MazzardH-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Dongle;
+    src: url("fonts/Dongle/Dongle-Bold.ttf") format("opentype");
 }
 
 :root {
     --variableBackgroundColor: #2f2541;
     --variableFontColor: #e9e9ed;
     --variableShinyColor: #ffc21a;
-    --variableFontText: 'Commissioner';
-    --variableFontTitle: 'El Messiri';
+    --variableFontText: 'Nunito';
+    --variableFontTitle: 'Dongle';
 }
 
 
@@ -23,10 +28,12 @@ body {
     font-size: 20px;
     line-height: 1.5;
     font-weight: 300;
+    padding-bottom: 5vh;
 }
 
 .title-font {
     font-family: var(--variableFontTitle);
+    font-weight: bold;
 }
 
 * {

@@ -30,11 +30,13 @@ body {
     padding-top: 2%;
     border-top: 0.5px solid var(--variableFontColor);
     margin-bottom: 5vh;
+    font-family: var(--variableFontText), sans-serif;
 }
 
 #overviewText {
     width: 80%;
     padding-right: 5vw;
+    font-family: var(--variableFontText), sans-serif;
 }
 
 #techStack {
