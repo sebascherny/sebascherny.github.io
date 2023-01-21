@@ -5,7 +5,7 @@ body {
 #presentationText {
     display: flex;
     text-align: justify;
-    font-size: 3vh;
+    font-size: 1.5vw;
 }
 
 img {
@@ -46,7 +46,6 @@ p {
     padding-bottom: 0vw;
     padding-left: 30vw;
     padding-right: 30vw;
-    font-size: 100%;
     flex: 1;
 }
 
@@ -57,11 +56,11 @@ p {
 
 #presentationH1 {
     letter-spacing: 0.03em;
-    font-size: 300%;
+    font-size: 4.2vw;
     padding-left: 5%;
     padding-bottom: 0px;
-    margin-block-end: 10px;
-    text-align: left;
+    margin-block-end: 0px;
+    height: 12vh;
 }
 
 .lookbook-gallery {
@@ -116,13 +115,30 @@ p {
     }
 
     #presentationDiv {
-        padding-left: 12vw;
-        padding-right: 12vw;
-        font-size: 120%;
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+
+    #presentationText {
+        display: flex;
+        text-align: justify;
+        font-size: 4vw;
+    }
+
+    #presentationH1 {
+        letter-spacing: 0.03em;
+        font-size: 11vw;
+        padding-left: 0;
+        text-align: left;
+        height: 7vh;
     }
 
     #blockDiv {
-        height: 25vh;
+        height: 40vh;
+    }
+
+    #contactMeButton {
+        font-size: 4vw;
     }
 
 }

@@ -1,16 +1,43 @@
 @font-face {
-    font-family: Mazzard;
     src: url("fonts/MazzardH-ExtraLight.otf") format("opentype");
+    font-family: Mazzard;
+    font-weight: lighter;
 }
 
 @font-face {
-    font-family: MazzardBold;
-    src: url("fonts/Mazzard/MazzardH-Bold.otf") format("opentype");
-}
-
-@font-face {
-    font-family: Dongle;
     src: url("fonts/Dongle/Dongle-Bold.ttf") format("opentype");
+    font-family: Dongle;
+    font-weight: bold;
+}
+
+@font-face {
+    src: url("fonts/Dongle/Dongle-Light.ttf") format("opentype");
+    font-family: Dongle;
+    font-weight: lighter;
+}
+
+@font-face {
+    src: url("fonts/Dongle/Dongle-Regular.ttf") format("opentype");
+    font-family: Dongle;
+    font-weight: normal;
+}
+
+@font-face {
+    src: url("fonts/Nunito/Nunito-ExtraLight.ttf") format("opentype");
+    font-family: Nunito;
+    font-weight: lighter;
+}
+
+@font-face {
+    src: url("fonts/Nunito/Nunito-Regular.ttf") format("opentype");
+    font-family: Nunito;
+    font-weight: normal;
+}
+
+@font-face {
+    src: url("fonts/Nunito/Nunito-Bold.ttf") format("opentype");
+    font-family: Nunito;
+    font-weight: bold;
 }
 
 :root {
@@ -24,7 +51,7 @@
 
 
 body {
-    font-family: var(--variableFontText), sans-serif;
+    font-family: var(--variableFontText);
     font-size: 20px;
     color: var(--variableFontColor);
     line-height: 1.5;
@@ -34,7 +61,7 @@ body {
 
 .title-font {
     font-family: var(--variableFontTitle);
-    font-weight: bold;
+    font-weight: normal;
 }
 
 * {
@@ -48,7 +75,7 @@ body {
     border-radius: 3px;
     border-style: solid;
     color: var(--variableBackgroundColor);
-    font-family: var(--variableFontText), sans-serif;
+    font-family: var(--variableFontText);
 }
 
 .niceButton:hover {
