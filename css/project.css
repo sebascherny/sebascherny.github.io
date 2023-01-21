@@ -12,7 +12,8 @@ body {
 }
 
 #logoTop {
-    width: 100%;
+    width: 80%;
+    margin: auto;
 }
 
 #logoTopDiv {
@@ -21,10 +22,6 @@ body {
     padding-right: 20%;
     padding-bottom: 10%;
     height: auto;
-}
-
-#projectDiv {
-    padding-top: 5%;
 }
 
 #overviewDiv {
