@@ -55,6 +55,15 @@ p {
     display: flex;
 }
 
+#latest-projects {
+    padding-left: 30vw;
+    padding-right: 30vw;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    font-size: 25px;
+}
+
 #presentationH1 {
     letter-spacing: 0.03em;
     font-size: 3vw;
@@ -67,7 +76,6 @@ p {
 .lookbook-gallery {
     padding-right: 10%;
     padding-left: 10%;
-    padding-top: 10%;
 }
 
 .lookbook-grid {
@@ -140,6 +148,10 @@ p {
 
     #contactMeButton {
         font-size: 4vw;
+    }
+
+    #latest-projects {
+        font-size: 45px;
     }
 
 }

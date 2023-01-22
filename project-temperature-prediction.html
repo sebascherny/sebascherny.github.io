@@ -3,7 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Sebastian Cherny's Portfolio</title>
+    <title>Sebas' Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Cormorant Garamond' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=El Messiri' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Commissioner' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/e17930e95a.js" crossorigin="anonymous"></script>
     <link href="css/project.css" rel="stylesheet">
     <link href="css/common.css" rel="stylesheet">
@@ -17,14 +21,65 @@
 <body>
     <script type="text/jsx" src="index.js"></script>
     <custom-header></custom-header>
-    <custom-project projectName="Project: Heating Temperature Prediction" logo="images/logos/heating.png"
-        image1="images/heating-prediction-project/img1.png" image2="images/heating-prediction-project/img2.png"
-        description="With the use of different mathematical models, best fitting curves were used to predict heating time while receiving the data on live."
-        frontend="No frontend was used" backend="Python" frameworks="Google Colab, matplotlib, numpy, pandas, sklearn"
-        database="Postgresql" duration='1 month from nothing to publish it on <a 
-        style="color: inherit;
-            margin-right: 0.5em;"
-        href="http://render.com">Render</a>.'>
+
+    <div>
+    </div>
+    <div id="projectDescriptionDiv">
+        <div id="logoTopDiv">
+            <img src="images/logos/heating.png" id="logoTop" />
+        </div>
+        <div id="projectDiv">
+            <h2>Food Heating Prediction</h2>
+            <label>
+                I worked hand in hand with the client to improve a prediction algorithm in order to be able to 
+                model food heating and estimate when it would reach a desired temperature.
+                The algorithm would receive registered temperatures from 7 sensors inserted 
+                in the food every 5 seconds and update the model and estimated time.
+            </label>
+            <label></label>
+        </div>
+        <div id="overviewDiv">
+            <div id="overviewText">
+                <h3>Overview</h3>
+                <label>
+                    With the use of different mathematical models, best fitting curves were used to predict heating time
+                    while receiving the data on live.
+                </label>
+                <br />
+                <br />
+                <label>
+                    Exponential, quadratic and linear models are used in every fixed-length window together with a validation
+                    window to decide which model fits the data best and use it to inform the user.
+                    These information would be shown in the product but for the scope of my project I ran and displayed everything on the screen using Google Colab.
+                </label>
+                <br />
+                <br />
+                <label>
+                    The user handed me some experiments with all the information from the sensors to use them to test and compare 
+                    different algorithms.
+                </label>
+                <label></label>
+            </div>
+            <div id="techStack">
+                <label class="techStackTitle">Backend</label>
+                <br />
+                <label>Python</label>
+                <br />
+                <br />
+                <label class="techStackTitle">Frameworks & Libraries</label>
+                <br />
+                <label>Google Colab, matplotlib, numpy, pandas, sklearn, unittest</label>
+                <br />
+            </div>
+        </div>
+        <div id="lastImagesDiv">
+            <img id="imgLeft" src="images/heating-prediction-project/img1.png" />
+            <img id="imgRight" src="images/heating-prediction-project/img2.png" />
+        </div>
+        <br />
+    </div>
+    <div>
+    </div>
     </custom-project>
 
     <custom-footer></custom-footer>

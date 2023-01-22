@@ -3,7 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Sebastian Cherny's Portfolio</title>
+    <title>Sebas' Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Cormorant Garamond' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=El Messiri' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Commissioner' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/e17930e95a.js" crossorigin="anonymous"></script>
     <link href="css/project.css" rel="stylesheet">
     <link href="css/common.css" rel="stylesheet">
@@ -17,11 +21,73 @@
 <body>
     <script type="text/jsx" src="index.js"></script>
     <custom-header></custom-header>
-    <custom-project projectName="Project: Solar Energy Network" logo="images/logos/heating.png"
-        image1="images/solar-energy-project/img2.png" image2="images/solar-energy-project/img3.png"
-        description="The client wanted to centralize information for different APIs into one unique system. We got systems' energy production for different periods and inform them to the users."
-        frontend="React, HTML, CSS, Bootstrap" backend="Python, Django" database="Postgresql"
-        duration="2 weeks for MVP, 1 more month with client's feedback and improvements">
+
+    <div>
+    </div>
+    <div id="projectDescriptionDiv">
+        <div id="logoTopDiv">
+            <img src="images/logos/SEN.png" id="logoTop" />
+        </div>
+        <div id="projectDiv">
+            <h2>Solar Energy Network</h2>
+            <label>
+                In this project the client wanted to centralize information coming from different APIs that
+                correspond to different brands of solar panels. The system should retrieve the information, compare it
+                with a model prediction of expected energy production, and send automatic emails when there was too much
+                difference.
+            </label>
+            <label></label>
+        </div>
+        <div id="overviewDiv">
+            <div id="overviewText">
+                <h3>Overview</h3>
+                <label>
+                    First, users need to register and validate their email. After that they can log into the
+                    system and link their account with an installed solar system.
+                </label>
+                <br />
+                <br />
+                <label>
+                    When linking these two systems they would be able to see the information about the installed system
+                    that a third-party API had, and also they can start seeing graphs of energy production in different
+                    time periods
+                    compared with expected production.
+                </label>
+                <br />
+                <br />
+                <label>
+                    This system allowed the client's users to have an understandable system with only the relevant
+                    information,
+                    and get notified without the system technician having to manually check the information for possible
+                    issues.
+                </label>
+                <label></label>
+            </div>
+            <div id="techStack">
+                <label class="techStackTitle">Frontend</label>
+                <br />
+                <label>React, HTML, CSS, Chart.js, Bootstrap</label>
+                <br />
+                <br />
+                <label class="techStackTitle">Backend</label>
+                <br />
+                <label>Python, Django, unittest</label>
+                <br />
+                <br />
+                <label class="techStackTitle">Database</label>
+                <br />
+                <label>Postgresql</label>
+                <br />
+            </div>
+        </div>
+        <div id="lastImagesDiv">
+            <img id="imgLeft" src="images/solar-energy-project/img4.png" />
+            <img id="imgRight" src="images/solar-energy-project/img5.jpeg" />
+        </div>
+        <br />
+    </div>
+    <div>
+    </div>
     </custom-project>
 
     <custom-footer></custom-footer>
