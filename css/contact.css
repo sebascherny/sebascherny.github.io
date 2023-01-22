@@ -60,9 +60,6 @@ form {
     font-size: 120%;
 }
 
-h1 {
-}
-
 .link_with_icon {
     text-decoration: none;
     color: inherit;
@@ -89,6 +86,10 @@ h1 {
 
     #contactDiv label {
         font-size: 150%;
+    }
+
+    .link_with_icon {
+        font-size: 1.5em;
     }
 
 }
