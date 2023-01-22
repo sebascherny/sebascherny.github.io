@@ -10,7 +10,7 @@ class Header extends HTMLElement {
                 <div id="nameHeaderDiv">
                     <h2 class="title-font" id="nameHeader">
                         <a class="title-font" id="nameHeaderLink" href="index.html">
-                            Sebastian.
+                            Sebastian
                         </a>
                     </h2>
                 </div>
