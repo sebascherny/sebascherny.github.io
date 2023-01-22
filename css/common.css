@@ -13,25 +13,31 @@
 @font-face {
     src: url("fonts/Dongle/Dongle-Light.ttf") format("opentype");
     font-family: Dongle;
-    font-weight: lighter;
+    font-weight: 200;
 }
 
 @font-face {
     src: url("fonts/Dongle/Dongle-Regular.ttf") format("opentype");
     font-family: Dongle;
-    font-weight: normal;
+    font-weight: 300;
 }
 
 @font-face {
     src: url("fonts/Nunito/Nunito-ExtraLight.ttf") format("opentype");
     font-family: Nunito;
-    font-weight: lighter;
+    font-weight: 100;
 }
 
 @font-face {
     src: url("fonts/Nunito/Nunito-Regular.ttf") format("opentype");
     font-family: Nunito;
-    font-weight: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    src: url("fonts/Nunito/Nunito-Medium.ttf") format("opentype");
+    font-family: Nunito;
+    font-weight: 400;
 }
 
 @font-face {
@@ -40,12 +46,18 @@
     font-weight: bold;
 }
 
+@font-face {
+    src: url("fonts/Nunito/Nunito-Light.ttf") format("opentype");
+    font-family: Nunito;
+    font-weight: 200;
+}
+
 :root {
     --variableBackgroundColor: #1e1e1e;
     --variableFontColor: #ecc8a2;
     --variableShinyColor: #ecc8a2;
     --variableFontText: 'Nunito';
-    --variableFontTitle: 'Dongle';
+    --variableFontTitle: 'Nunito';
 }
 
 

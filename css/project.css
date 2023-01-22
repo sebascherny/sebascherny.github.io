@@ -29,7 +29,7 @@ body {
     margin-top: 5vh;
     padding-top: 2vh;
     border-top: 0.5px solid var(--variableFontColor);
-    margin-bottom: 5vh;
+    margin-bottom: 15vh;
     font-family: var(--variableFontText), sans-serif;
 }
 
@@ -42,13 +42,14 @@ body {
 #techStack {
     background-color: var(--variableShinyColor);
     margin-top: 5%;
-    width: 20vw;
+    width: 25vw;
     color: var(--variableBackgroundColor);
     padding-top: 3vh;
     padding-bottom: 3vh;
     padding-right: 2.5vw;
     padding-left: 2.5vw;
     height: 100%;
+    font-weight: 400;
 }
 
 .techStackTitle {
@@ -113,6 +114,7 @@ img {
     #overviewDiv {
         margin-top: 5vh;
         padding-top: 5vh;
+        margin-bottom: 10vh;
     }
 
     #overviewDiv h3 {

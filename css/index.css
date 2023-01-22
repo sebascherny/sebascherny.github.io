@@ -6,6 +6,7 @@ body {
     display: flex;
     text-align: justify;
     font-size: 1.5vw;
+    margin-top: 20px;
 }
 
 img {
@@ -56,7 +57,7 @@ p {
 
 #presentationH1 {
     letter-spacing: 0.03em;
-    font-size: 4.2vw;
+    font-size: 3vw;
     padding-left: 5%;
     padding-bottom: 0px;
     margin-block-end: 0px;
@@ -127,7 +128,7 @@ p {
 
     #presentationH1 {
         letter-spacing: 0.03em;
-        font-size: 11vw;
+        font-size: 8vw;
         padding-left: 0;
         text-align: left;
         height: 7vh;
