@@ -35,10 +35,10 @@ form {
 }
 
 #contactDiv {
-    padding-left: 25%;
-    padding-right: 25%;
-    padding-top: 4%;
-    padding-bottom: 5%;
+    padding-left: 25vw;
+    padding-right: 25vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     text-align: center;
     color: var(--variableFontColor);
 }
@@ -60,17 +60,24 @@ form {
     font-size: 120%;
 }
 
-@media (min-width: 800px) {
+h1 {
+    height: 30px;
+}
+
+@media (max-width: 1100px) {
     #contactDiv {
-        padding-left: 25vw;
-        padding-right: 25vw;
-        padding-top: 15vh;
-        padding-bottom: 5%;
-        text-align: center;
-        color: var(--variableFontColor);
+        padding-top: 10vh;
+        padding-right: 10vw;
+        padding-left: 10vw;
     }
 
-    #blockDiv {
-        height: 5vh;
+    h1 {
+        font-size: 5em;
+        height: 70px;
     }
+
+    #contactDiv label {
+        font-size: 150%;
+    }
+
 }
