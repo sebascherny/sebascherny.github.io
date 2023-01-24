@@ -18,6 +18,7 @@
     font-weight: 400;
     letter-spacing: 0.3px;
     justify-content: space-between;
+    animation: fadeIn 1s;
 }
 
 #navigationDiv {

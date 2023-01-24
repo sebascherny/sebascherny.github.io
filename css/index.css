@@ -2,6 +2,10 @@ body {
     background-color: var(--variableBackgroundColor);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 #presentationText {
     display: flex;
     text-align: justify;
