@@ -185,3 +185,7 @@ p {
     grid-template-rows: auto auto auto auto;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+.logo_image {
+    aspect-ratio: 1 / 1;
+}
