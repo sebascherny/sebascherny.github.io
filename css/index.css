@@ -68,7 +68,7 @@ p {
     font-size: 25px;
 }
 
-#services-div {
+#services {
     padding-left: 30vw;
     padding-right: 30vw;
     text-align: center;
@@ -167,7 +167,7 @@ p {
         font-size: 45px;
     }
 
-    #services-div {
+    #services {
         font-size: 45px;
     }
 
