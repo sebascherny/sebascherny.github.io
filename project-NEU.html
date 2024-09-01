@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sebas' Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Cormorant Garamond' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=El Messiri' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Commissioner' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/e17930e95a.js" crossorigin="anonymous"></script>
+    <link href="css/project.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <script src="js/header.js"></script>
+    <script src="js/reusable_project_page.js"></script>
+    <script src="js/custom_footer.js"></script>
+    <link href="css/custom_footer.css" rel="stylesheet">
+</head>
+
+<body>
+    <script type="text/jsx" src="index.js"></script>
+    <custom-header></custom-header>
+
+    <div>
+    </div>
+    <div id="projectDescriptionDiv">
+        <div id="logoTopDiv">
+            <img src="images/logos/mirlo_logo.png" id="logoTop" />
+        </div>
+        <div id="projectDiv">
+            <h2>North Eastern University</h2>
+            <label>
+                In this project, a professor and his team of students were conducting experiments on different networks, 
+                and were interested in showing their results to other teams. They wanted to compare their algorithms to others, in terms of different variables: 
+                throughput, latency, and cached data.
+            </label>
+            <label></label>
+        </div>
+        <div id="overviewDiv">
+            <div id="overviewText">
+                <h3>Overview</h3>
+                <label>
+                    A webapp was developed for system users to be able to select the experiment(s) to see reflected and they would have 
+                    the information for the experiment displayed in different graphs and tables.
+                </label>
+                <br />
+                <br />
+                <label>
+                    Also, a graph with nodes and edges representing computers and connections respectively was drawn using the `cytoscape` library, and upon an element selection the information 
+                    associated to it would be displayed (like cached data in a specific node).
+                </label>
+                <br />
+                <br />
+                <label>
+                    The experiments' data could be either uploaded directly loading the JSON in github, 
+                    or to a database that was pulled when loading the page.
+                </label>
+                <label></label>
+            </div>
+            <div id="techStack">
+                <label class="techStackTitle">Frontend</label>
+                <br />
+                <label>React, HTML, CSS, JS, graphs libraries (Chart.js, apexchart, cytoscape)</label>
+                <br />
+                <br />
+                <label class="techStackTitle">Backend</label>
+                <br />
+                <label>Python, Django</label>
+                <br />
+                <br />
+                <label class="techStackTitle">Database</label>
+                <br />
+                <label>Redis</label>
+                <br />
+            </div>
+        </div>
+        <div id="lastImagesDiv">
+            <img id="imgLeft" src="images/solar-energy-project/img4.png" />
+            <img id="imgRight" src="images/solar-energy-project/img5.jpeg" />
+        </div>
+        <br />
+    </div>
+    <div>
+    </div>
+    </custom-project>
+
+    <custom-footer></custom-footer>
+    <script>
+
+    </script>
+</body>
+
+</html>

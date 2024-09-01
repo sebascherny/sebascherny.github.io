@@ -1,0 +1,152 @@
+body {
+    background: var(--variableBackgroundColor);
+}
+
+#pictureDiv {
+    min-width: 40%;
+    width: 50%;
+    display: flex;
+    height: 80%;
+}
+
+
+#hiH2 {
+    width: 100%;
+    text-align: left;
+    font-weight: normal;
+    margin: auto;
+    height: 7vh;
+    font-size: 40px;
+    padding: 0 0 0 0;
+    color: var(--variableFontColor);
+}
+
+#aboutDiv {
+    display: flex;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 20vh;
+    width: 100%;
+}
+
+#technologiesDiv {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    padding-top: 10vh;
+    width: auto;
+    margin-top: 12vh;
+    border-top: 1px solid;
+}
+
+#threeBlocksTech {
+    display: flex;
+    margin-top: 2vh;
+}
+
+#aboutTextDiv {
+    display: grid;
+    width: 50%;
+    row-gap: 15px;
+}
+
+#aboutTextDiv label {
+    text-align: justify;
+    color: var(--variableFontColor);
+    font-size: 0.8em;
+}
+
+#iconsDiv,
+#mailDiv {
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.link_with_icon {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 2em;
+    font-size: 0.9em;
+}
+
+.fa-gmail {
+    content: url('../images/gmail.svg');
+    height: 24px;
+    width: 24px;
+}
+
+#techLeft,
+#techMiddle,
+#techRight {
+    display: inline-block;
+    width: 33%;
+}
+
+@media (max-width: 1100px) {
+    #pictureDiv {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 2em;
+    }
+
+    #aboutDiv {
+        display: block;
+        padding-top: 15vh;
+        font-size: 1em;
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+
+    #aboutTextDiv {
+        row-gap: 3vh;
+        width: 100%;
+    }
+
+    #aboutDiv label {
+        font-size: 1.2em;
+        font-weight: lighter;
+    }
+
+    #h2Div {
+        width: 100%;
+        text-align: center;
+    }
+
+    #hiH2 {
+        height: 30px;
+        font-size: 50px;
+    }
+
+    .link_with_icon {
+        font-size: 1.5em;
+    }
+
+    #mailDiv {
+        text-align: center;
+        margin-top: 2vh;
+        margin-bottom: 7vh;
+    }
+
+    #technologiesDiv {
+        margin-left: 10vw;
+        margin-right: 10vw;
+        padding-top: 9vh;
+        margin-top: 30px;
+        border-top: 2px solid;
+    }
+
+    #techLeft,
+    #techMiddle,
+    #techRight {
+        display: block;
+        width: 100%;
+        margin-bottom: 2vh;
+        font-size: 40px;
+    }
+
+    #threeBlocksTech {
+        display: block;
+        margin-top: 2vh;
+        line-height: 40px;
+    }
+}

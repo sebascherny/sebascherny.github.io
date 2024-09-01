@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sebas' Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Cormorant Garamond' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=El Messiri' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Commissioner' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/e17930e95a.js" crossorigin="anonymous"></script>
+    <link href="css/project.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <script src="js/header.js"></script>
+    <script src="js/reusable_project_page.js"></script>
+    <script src="js/custom_footer.js"></script>
+    <link href="css/custom_footer.css" rel="stylesheet">
+</head>
+
+<body>
+    <script type="text/jsx" src="index.js"></script>
+    <custom-header></custom-header>
+
+    <div>
+    </div>
+    <div id="projectDescriptionDiv">
+        <div id="logoTopDiv">
+            <img src="images/logos/codegen_logo.png" id="logoTop" />
+        </div>
+        <div id="projectDiv">
+            <h2>Codegen</h2>
+            <label>
+                In this project the client was a startup whose product's concept was facilitating companies 
+                with big and complex codebases some code changes done by developers that were very routinary and well-defined, 
+                such that and algorithm could do it (like update a library and change all appearances of `Class.method()` to `Class.improved_method()`).
+            </label>
+            <label></label>
+        </div>
+        <div id="overviewDiv">
+            <div id="overviewText">
+                <h3>Overview</h3>
+                <label>
+                    I developed different scripts for some specific requests that could then be generalized so that 
+                    possibly new requests in the future would use at least some parts of the scripts.
+                </label>
+                <br />
+                <br />
+                <label>
+                    The code had to be as standardize as possible among the different scripts and employees, because the idea 
+                    was to send our generic scripts to an LLM (like Claude) to learn from them and be able to create new scripts for 
+                    new requests (maybe combining the existing ones or even creating a new one following the structure).
+                </label>
+                <br />
+                <br />
+                <label>
+                    Since our code was changing constantly because of the startup's stage, I took the lead in testing, 
+                    so that any change that would affect previous scripts was guaranteed to be backward compatible, and if not, 
+                    the test would make us see why not and either change the test or fix the code.
+                </label>
+                <label></label>
+            </div>
+            <div id="techStack">
+                <label class="techStackTitle">Backend</label>
+                <br />
+                <label>Python, Jupyter Notebooks, Github API, unittest, Mock</label>
+                <br />
+                <br />
+                <label class="techStackTitle">Database</label>
+                <br />
+                <label>SQL alchemy</label>
+                <br />
+            </div>
+        </div>
+        <div id="lastImagesDiv">
+            <img id="imgLeft" src="images/solar-energy-project/img4.png" />
+            <img id="imgRight" src="images/solar-energy-project/img5.jpeg" />
+        </div>
+        <br />
+    </div>
+    <div>
+    </div>
+    </custom-project>
+
+    <custom-footer></custom-footer>
+    <script>
+
+    </script>
+</body>
+
+</html>

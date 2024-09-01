@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sebas' Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Cormorant Garamond' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=El Messiri' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Commissioner' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/e17930e95a.js" crossorigin="anonymous"></script>
+    <link href="css/project.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <script src="js/header.js"></script>
+    <script src="js/reusable_project_page.js"></script>
+    <script src="js/custom_footer.js"></script>
+    <link href="css/custom_footer.css" rel="stylesheet">
+</head>
+
+<body>
+    <script type="text/jsx" src="index.js"></script>
+    <custom-header></custom-header>
+
+    <div>
+    </div>
+    <div id="projectDescriptionDiv">
+        <div id="logoTopDiv">
+            <img src="images/logos/talktastic_icon.webp" id="logoTop" />
+        </div>
+        <div id="projectDiv">
+            <h2>Talktastic App</h2>
+            <label>
+                In this project I built the backend from scratch. The client was building a Mac App
+                that would allow users to run it and talk, and get their audios transcribed. The main 
+                interesting thing about this project was that to transcribe the audio, we first took a screenshot 
+                of the computer screen, sent it to an AI (Claude) for analysis, and then we sent the transcription together with the
+                screenshot's analysis to another LLM (GPT). This way we could get a more accurate transcription than plain speech-to-text, 
+                and even edit it to match the calculated format according to the screen.
+                For example, a common use case was people that sent a lot of Slack messages, we would catch the names to whom the 
+                message was being sent, and the previous messages from the conversation, and that way the LLM understood for example if the text
+                should be formal or not, the structure, and spelled correctly even uncommon names that were mentioned in the audio.
+            </label>
+            <label></label>
+        </div>
+        <div id="overviewDiv">
+            <div id="overviewText">
+                <h3>Overview</h3>
+                <label>
+                    First, users need to register and validate their email.
+                </label>
+                <br />
+                <br />
+                <label>
+                    When a user started recording, the app would take the screenshot and post it to the backend.
+                    Then, the backend would send the screenshot to Claude (as a background job, asynchronic), and get the analysis back.
+                </label>
+                <br />
+                <br />
+                <label>
+                    After both the screenshot was analyzed and then recording was finished and posted to the backend (together 
+                    with Apple's speech-to-text transcription), the backend sent different prompts to different LLM models (generally openai).
+                    The prompts were to get the AI to understand the context of the conversation together with the initial transcription, 
+                    and then return a more accurate transcription.
+                </label>
+                <br />
+                <br />
+                <label>
+                    Websockets were used so that the user could see the transcription in real time.
+                </label>
+                <label></label>
+            </div>
+            <div id="techStack">
+                <label class="techStackTitle">Backend</label>
+                <br />
+                <label>Python, Django, DRF, Celery, Websockets, openai sdk</label>
+                <br />
+                <br />
+                <label class="techStackTitle">Database</label>
+                <br />
+                <label>Postgresql</label>
+                <br />
+                <br />
+                <label class="techStackTitle">Infra</label>
+                <br />
+                <label>Docker, Google Cloud Platform, RabbitMQ, Github Actions (test coverage: 89%)</label>
+                <br />
+            </div>
+        </div>
+        <div id="lastImagesDiv">
+            <img id="imgLeft" src="images/solar-energy-project/img4.png" />
+            <img id="imgRight" src="images/solar-energy-project/img5.jpeg" />
+        </div>
+        <br />
+    </div>
+    <div>
+    </div>
+    </custom-project>
+
+    <custom-footer></custom-footer>
+    <script>
+
+    </script>
+</body>
+
+</html>

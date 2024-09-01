@@ -54,12 +54,21 @@ p {
     flex: 1;
 }
 
-#blockDiv {
+.blockDiv {
     height: 25vh;
     display: flex;
 }
 
 #latest-projects {
+    padding-left: 30vw;
+    padding-right: 30vw;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    font-size: 25px;
+}
+
+#services-div {
     padding-left: 30vw;
     padding-right: 30vw;
     text-align: center;
@@ -146,7 +155,7 @@ p {
         height: 7vh;
     }
 
-    #blockDiv {
+    .blockDiv {
         height: 40vh;
     }
 
@@ -158,4 +167,21 @@ p {
         font-size: 45px;
     }
 
+    #services-div {
+        font-size: 45px;
+    }
+
+}
+
+.services-gallery {
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.services-grid {
+    display: grid;
+    column-gap: 30px;
+    row-gap: 30px;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }

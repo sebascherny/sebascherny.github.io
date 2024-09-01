@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sebas' Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Cormorant Garamond' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=El Messiri' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Commissioner' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/e17930e95a.js" crossorigin="anonymous"></script>
+    <link href="css/project.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <script src="js/header.js"></script>
+    <script src="js/reusable_project_page.js"></script>
+    <script src="js/custom_footer.js"></script>
+    <link href="css/custom_footer.css" rel="stylesheet">
+</head>
+
+<body>
+    <script type="text/jsx" src="index.js"></script>
+    <custom-header></custom-header>
+
+    <div>
+    </div>
+    <div id="projectDescriptionDiv">
+        <div id="logoTopDiv">
+            <img src="images/logos/talktastic_icon.webp" id="logoTop" />
+        </div>
+        <div id="projectDiv">
+            <h2>Tarot reading webapp</h2>
+            <label>
+                In this project the client wanted to a webapp to allow users to register and create different requests 
+                for tarot card readings. Also, non-subscribed users could request one-time 1, 3 or 5-card readings, and also ask for a 
+                "rush" reading, that would be done in less than 24 hours.
+            </label>
+            <label></label>
+        </div>
+        <div id="overviewDiv">
+            <div id="overviewText">
+                <h3>Overview</h3>
+                <label>
+                    First, users need to register in the system. For this, they needed to choose between a monthly or annual 
+                    subscription (they could pause it later but my client wanted this mandatory).
+                    They would be asked for their credit card information which was processed by Stripe to create the subscription.
+                </label>
+                <br />
+                <br />
+                <label>
+                    Once registered, they could pause or cancel the subscription, and ask for one-time tarot reading.
+                    The reading could be pushed if the user paid more, and their request would be prioritized in the backend so that the frontend would know which to show first 
+                    to the tarot readers.
+                    Users had a dashboard with their requests like different conversations with the psychics, and would be notified upon receiving a new message.
+                </label>
+                <br />
+                <br />
+                <label>
+                    Selenium tests were developed so that we would automatically test the frontend changes.
+                </label>
+                <label></label>
+            </div>
+            <div id="techStack">
+                <label class="techStackTitle">Backend</label>
+                <br />
+                <label>Python, Django, Selenium, Stripe</label>
+                <br />
+                <br />
+                <label class="techStackTitle">Database</label>
+                <br />
+                <label>Postgresql</label>
+                <br />
+                <br />
+                <label class="techStackTitle">Infrastructure</label>
+                <br />
+                <label>Azure, Github Actions</label>
+                <br />
+            </div>
+        </div>
+        <div id="lastImagesDiv">
+            <img id="imgLeft" src="images/solar-energy-project/img4.png" />
+            <img id="imgRight" src="images/solar-energy-project/img5.jpeg" />
+        </div>
+        <br />
+    </div>
+    <div>
+    </div>
+    </custom-project>
+
+    <custom-footer></custom-footer>
+    <script>
+
+    </script>
+</body>
+
+</html>
