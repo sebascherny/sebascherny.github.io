@@ -21,12 +21,6 @@ img {
     border-radius: 2%;
 }
 
-.model {
-    margin: 0;
-    position: relative;
-}
-
-
 p {
     font-size: .9375em;
     font-style: normal;
@@ -39,6 +33,14 @@ p {
 .model-hed-link {
     color: #fff;
     text-decoration: none;
+}
+
+.model-hed {
+    margin-top: 25%;
+}
+
+.job-description {
+    margin-top: 10%;
 }
 
 #presentationDiv {
@@ -73,7 +75,7 @@ p {
     padding-right: 30vw;
     text-align: center;
     padding-top: 10%;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
     font-size: 25px;
 }
 
@@ -113,15 +115,45 @@ p {
     width: 100%;
 }
 
+.work_grid_cell .overlay {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent shadow */
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Start with the overlay hidden */
+    transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+/*
+.work_grid_cell:hover img {
+    transform: scale(1.05); /* Slightly enlarge image on hover
+}
+*/
+
+.work_grid_cell:hover .overlay {
+    opacity: 0.9; /* Show the overlay on hover */
+    background-color: black;
+}
+
+.work_grid_cell {
+    transition: transform 0.3s ease; /* Smooth scaling on hover */
+    position: relative;
+}
+
+
 .model {
     text-align: center;
     display: inline-block;
     width: 100%;
-}
-
-
-.model--caption {
-    display: none;
+    margin: 0; /* before wasn't included */
+    position: relative; /* before wasn't included */
 }
 
 #contactMeButton {
@@ -181,11 +213,20 @@ p {
 .services-grid {
     display: grid;
     column-gap: 30px;
-    row-gap: 30px;
+    row-gap: 10px;
     grid-template-rows: auto auto auto auto;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .logo_image {
     aspect-ratio: 1 / 1;
+}
+
+.service-title {
+    font-size: 20px;
+}
+
+.service-description {
+    font-size: 15px;
+    text-align: justify;
 }
