@@ -29,7 +29,7 @@ body {
     width: 100%;
 }
 
-#technologiesDiv {
+.aboutDivClass {
     margin-left: 15vw;
     margin-right: 15vw;
     padding-top: 10vh;
@@ -127,7 +127,7 @@ body {
         margin-bottom: 7vh;
     }
 
-    #technologiesDiv {
+    .aboutDivClass {
         margin-left: 10vw;
         margin-right: 10vw;
         padding-top: 9vh;
