@@ -212,7 +212,7 @@ p {
 
 .services-grid {
     display: grid;
-    column-gap: 30px;
+    column-gap: 60px;
     row-gap: 10px;
     grid-template-rows: auto auto auto auto;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -229,4 +229,5 @@ p {
 .service-description {
     font-size: 15px;
     text-align: justify;
+    font-family: "Roboto";
 }
