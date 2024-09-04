@@ -165,6 +165,35 @@ p {
     padding: 9px 15px;
 }
 
+.services-gallery {
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.services-grid {
+    display: grid;
+    column-gap: 60px;
+    row-gap: 10px;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.logo_image {
+    aspect-ratio: 1 / 1;
+}
+
+.service-title {
+    font-size: 20px;
+}
+
+.service-description {
+    font-size: 15px;
+    text-align: justify;
+    font-family: "Roboto";
+}
+
+
+
 @media (max-width: 1100px) {
     .lookbook-grid {
         grid-template-rows: auto;
@@ -217,31 +246,4 @@ p {
         grid-template-columns: 1fr 1fr;
     }
 
-}
-
-.services-gallery {
-    padding-right: 10%;
-    padding-left: 10%;
-}
-
-.services-grid {
-    display: grid;
-    column-gap: 60px;
-    row-gap: 10px;
-    grid-template-rows: auto auto auto auto;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.logo_image {
-    aspect-ratio: 1 / 1;
-}
-
-.service-title {
-    font-size: 20px;
-}
-
-.service-description {
-    font-size: 15px;
-    text-align: justify;
-    font-family: "Roboto";
 }
