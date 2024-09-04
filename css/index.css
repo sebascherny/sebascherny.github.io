@@ -262,7 +262,7 @@ p {
     .services-grid div:nth-child(8) { grid-area: item8; }
 
     .service-description {
-        font-size: 2vw;
+        font-size: 1vw;
     }
 
     .service-title {
