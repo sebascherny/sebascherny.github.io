@@ -104,3 +104,11 @@ body {
     color: var(--variableShinyColor);
     cursor: pointer;
 }
+
+a:visited {
+    color: inherit;
+}
+
+a {
+    color: inherit;
+}

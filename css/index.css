@@ -6,8 +6,8 @@ html {
     scroll-behavior: smooth;
 }
 
-#presentationText {
-    display: flex;
+.presentationText {
+    display: block;
     text-align: justify;
     font-size: 1.5vw;
     margin-top: 20px;
@@ -36,11 +36,14 @@ p {
 }
 
 .model-hed {
-    margin-top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30%;
 }
 
 .job-description {
-    margin-top: 10%;
+    width: 100%;
+    text-align: center;
 }
 
 #presentationDiv {
@@ -173,7 +176,7 @@ p {
         padding-right: 10vw;
     }
 
-    #presentationText {
+    .presentationText {
         display: flex;
         text-align: justify;
         font-size: 4vw;
