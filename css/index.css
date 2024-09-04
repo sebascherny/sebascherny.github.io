@@ -233,6 +233,7 @@ p {
     }
 
     #latest-projects {
+        padding-top: 2%;
         font-size: 45px;
     }
 
@@ -244,6 +245,20 @@ p {
         display: grid;
         grid-template-rows: auto auto;
         grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "item1 item2"
+            "item5 item6"
+            "item3 item4"
+            "item7 item8";
     }
+
+    .services-grid div:nth-child(1) { grid-area: item1; }
+    .services-grid div:nth-child(2) { grid-area: item2; }
+    .services-grid div:nth-child(3) { grid-area: item3; h3 {margin-top: 10%;} }
+    .services-grid div:nth-child(4) { grid-area: item4; h3 {margin-top: 10%;} }
+    .services-grid div:nth-child(5) { grid-area: item5; }
+    .services-grid div:nth-child(6) { grid-area: item6; }
+    .services-grid div:nth-child(7) { grid-area: item7; }
+    .services-grid div:nth-child(8) { grid-area: item8; }
 
 }
