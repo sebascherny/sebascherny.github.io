@@ -177,7 +177,7 @@ p {
     }
 
     .presentationText {
-        display: flex;
+        display: block;
         text-align: justify;
         font-size: 4vw;
     }
