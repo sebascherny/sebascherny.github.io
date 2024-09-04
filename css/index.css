@@ -176,6 +176,11 @@ p {
         padding-right: 10vw;
     }
 
+    #services {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+
     .presentationText {
         display: block;
         text-align: justify;
@@ -204,6 +209,12 @@ p {
 
     #services {
         font-size: 45px;
+    }
+
+    .services-grid {
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: 1fr 1fr;
     }
 
 }
