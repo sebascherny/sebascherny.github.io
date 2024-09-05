@@ -94,6 +94,10 @@ body {
     margin-bottom: 5vh;
 }
 
+.aboutLabelSubSubtitle {
+    font-size: 70%;
+}
+
 @media (max-width: 1100px) {
     #pictureDiv {
         display: inline-block;
@@ -175,5 +179,9 @@ body {
         font-size: 40px;
         line-height: 40px;
         width: 100%;
+    }
+
+    .aboutLabelSubSubtitle {
+        font-size: 100%;
     }
 }
