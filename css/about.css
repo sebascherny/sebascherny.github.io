@@ -141,10 +141,15 @@ body {
     }
 
     .aboutDivClass {
+        margin-top: 12vh;
+        border-top: 1px solid;
+    }
+
+    .aboutDivClass {
         margin-left: 10vw;
         margin-right: 10vw;
-        padding-top: 9vh;
-        margin-top: 30px;
+        padding-top: 5vh;
+        margin-top: 40px;
         border-top: 2px solid;
     }
 
@@ -162,12 +167,13 @@ body {
 
     .aboutDescriptionDiv {
         display: block;
-        margin-top: 2vh;
+        margin-top: 3vh;
         line-height: 40px;
     }
 
     .aboutLabelSubtitle {
         font-size: 40px;
         line-height: 40px;
+        width: 100%;
     }
 }
