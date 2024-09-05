@@ -281,4 +281,9 @@ p {
         font-size: 1vw;
     }
 
+    .overlay {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
 }
