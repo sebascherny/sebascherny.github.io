@@ -38,7 +38,7 @@ body {
     border-top: 1px solid;
 }
 
-#threeBlocksTech {
+.aboutDescriptionDiv {
     display: flex;
     margin-top: 2vh;
 }
@@ -160,14 +160,14 @@ body {
         padding-left: 0;
     }
 
-    #threeBlocksTech {
+    .aboutDescriptionDiv {
         display: block;
         margin-top: 2vh;
         line-height: 40px;
     }
 
     .aboutLabelSubtitle {
-        font-size: 30px;
+        font-size: 40px;
         line-height: 40px;
     }
 }
