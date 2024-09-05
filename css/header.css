@@ -74,5 +74,6 @@
 
     #headerDiv {
         padding: 0vh 10vw 0px;
+        height: 5vh;
     }
 }
