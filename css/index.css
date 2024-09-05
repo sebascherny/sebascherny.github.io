@@ -276,7 +276,7 @@ p {
     .services-grid div:nth-child(8) { grid-area: item8; }
 
     .service-description {
-        font-size: 1.5vw;
+        font-size: 1.2vw;
     }
 
     .service-title {
@@ -284,7 +284,7 @@ p {
     }
 
     .model-hed {
-        font-size: 5vw;
+        font-size: 5.5vw;
     }
 
     .job-description {
