@@ -92,6 +92,7 @@ body {
 
 .aboutLabelSubtitle {
     font-size: 0.8em;
+    margin-bottom: 30px;
 }
 
 .aboutLabelSubSubtitle {
@@ -155,7 +156,7 @@ body {
     #techLeft,
     #techMiddle,
     #techRight {
-        display: block;
+        display: grid;
         width: 100%;
         margin-bottom: 2vh;
     }
@@ -172,11 +173,12 @@ body {
 
     .aboutLabelSubtitle {
         font-size: 2.3em;
-        margin-bottom: 10px;
+        margin-bottom: -20px;
     }
 
     .aboutLabelSubSubtitle {
         font-size: 1.6em;
+        margin-bottom: 20px;
     }
 
     .aboutLabelTitle {
