@@ -1,4 +1,4 @@
-body {
+body, main {
     background-color: var(--variableBackgroundColor);
 }
 
@@ -21,14 +21,14 @@ img {
     border-radius: 2%;
 }
 
-p {
+/*p {
     font-size: .9375em;
     font-style: normal;
     font-weight: 400;
     color: #fff;
     line-height: 1.5;
     margin: 0 0 .5em 0;
-}
+}*/
 
 .model-hed-link {
     color: #f5e3d0;
@@ -48,7 +48,7 @@ p {
     color: #f5e3d0;
 }
 
-#presentationDiv {
+#about {
     text-align: center;
     color: var(--variableFontColor);
     height: auto;
@@ -213,7 +213,7 @@ p {
         grid-template-columns: 1fr;
     }
 
-    #presentationDiv {
+    #about {
         padding-left: 10vw;
         padding-right: 10vw;
     }
