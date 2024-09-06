@@ -16,10 +16,10 @@ class CustomFooter extends HTMLElement {
 
                 <div class="footer-icons">
 
-                    <a href="https://www.linkedin.com/in/sebastian-cherny-a03386b0/"
+                    <a href="https://www.linkedin.com/in/sebascherny/"
                     target="blank"
                     ><i class="fa fa-linkedin"></i></a>
-                    <a href="https://www.github.com/sebacherny"
+                    <a href="https://www.github.com/sebascherny/"
                     target="blank"><i class="fa fa-github"></i></a>
 
                 </div>
