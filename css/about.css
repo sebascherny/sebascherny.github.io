@@ -145,11 +145,6 @@ body {
     }
 
     .aboutDivClass {
-        margin-top: 12vh;
-        border-top: 1px solid;
-    }
-
-    .aboutDivClass {
         margin-left: 10vw;
         margin-right: 10vw;
         padding-top: 5vh;
@@ -178,5 +173,10 @@ body {
     .aboutLabelSubtitle {
         line-height: 40px;
         width: 100%;
+        font-size: 1.6em;
+    }
+
+    .aboutLabelSubSubtitle {
+        font-size: 1.4em;
     }
 }
