@@ -1,7 +1,3 @@
-body {
-    background: var(--variableBackgroundColor);
-}
-
 #pictureDiv {
     min-width: 40%;
     width: 50%;

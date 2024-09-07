@@ -1,7 +1,3 @@
-body, main {
-    background-color: var(--variableBackgroundColor);
-}
-
 html {
     scroll-behavior: smooth;
 }
