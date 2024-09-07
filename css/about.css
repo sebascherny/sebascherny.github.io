@@ -21,7 +21,7 @@ body {
     color: var(--variableFontColor);
 }
 
-#aboutDiv {
+.personalInfoSection {
     display: flex;
     padding-left: 15vw;
     padding-right: 15vw;
@@ -49,10 +49,11 @@ body {
     row-gap: 15px;
 }
 
-#aboutTextDiv label {
+p {
     text-align: justify;
     color: var(--variableFontColor);
     font-size: 0.8em;
+    line-height: 1.2;
 }
 
 #iconsDiv,
@@ -107,7 +108,7 @@ body {
         margin-bottom: 2em;
     }
 
-    #aboutDiv {
+    .personalInfoSection {
         display: block;
         padding-top: 15vh;
         font-size: 1em;
@@ -120,7 +121,7 @@ body {
         width: 100%;
     }
 
-    #aboutDiv label {
+    p {
         font-size: 1.2em;
         font-weight: lighter;
     }
