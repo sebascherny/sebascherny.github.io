@@ -4,6 +4,7 @@ class CustomFooter extends HTMLElement {
     }
 
     connectedCallback() {
+        // Add https://kit.fontawesome.com/e17930e95a.js to the head of the document if this is displayed
         this.innerHTML = `
         <footer style="display: none;" class="footer-distributed">
             <div class="footer-left">
