@@ -123,6 +123,7 @@ p {
     p {
         font-size: 1.2em;
         font-weight: lighter;
+        line-height: 2;
     }
 
     #h2Div {
