@@ -16,81 +16,40 @@
     <script src="js/reusable_project_page.js"></script>
     <script src="js/custom_footer.js"></script>
     <link href="css/custom_footer.css" rel="stylesheet">
+    <script>
+        var projectJson = {
+            "logo_source": "images/logos/tarot_logo_2.png",
+            "project_title": "Tarot reading Web App",
+            "project_summary": 'In this project the client wanted a web application to allow users to register and create different requests for tarot card readings. Also, non-subscribed users could request one-time 1, 3 or 5-card readings, and also ask for a "rush" reading, that would be done in less than 24 hours.',
+            "project_overview_paragraphs": [
+                "First, users need to register in the system. For this, they needed to choose between a monthly or annual " +
+                "subscription (they could pause it later but my client wanted this mandatory). " +
+                "They would be asked for their credit card information which was processed by Stripe to create the subscription.",
+                "Once registered, they could pause or cancel the subscription, and ask for one-time tarot reading. " +
+                "The reading could be pushed if the user paid more, and their request would be prioritized in the backend so that the frontend would know which to show first " +
+                "to the tarot readers. Users had a dashboard with their requests like different conversations with the psychics, and would be notified upon receiving a new message.",
+                "Selenium tests were developed so that we would automatically test the frontend changes."
+            ],
+            "tech_stack": [
+                ["Backend", "Python, Django, Selenium, Stripe, OpenAI sdk"],
+                ["Database", "Postgresql"],
+                ["Infrastructure", "Azure, Github Actions"],
+            ],
+            project_images: [
+                "images/tarot-project/tarot-project-1.png",
+                "images/tarot-project/tarot-project-2.png"
+            ]
+        };
+    </script>
+    <script src="project-loader.js"></script>
 </head>
 
 <body>
     <script type="text/jsx" src="index.js"></script>
     <custom-header></custom-header>
-
-    <div>
-    </div>
-    <div id="projectDescriptionDiv">
-        <div id="logoTopDiv">
-            <img src="images/logos/tarot_logo_2.png" id="logoTop" />
-        </div>
-        <div id="projectDiv">
-            <h2>Tarot reading Web App</h2>
-            <label>
-                In this project the client wanted a web application to allow users to register and create different requests 
-                for tarot card readings. Also, non-subscribed users could request one-time 1, 3 or 5-card readings, and also ask for a 
-                "rush" reading, that would be done in less than 24 hours.
-            </label>
-            <label></label>
-        </div>
-        <div id="overviewDiv">
-            <div id="overviewText">
-                <h3>Overview</h3>
-                <label>
-                    First, users need to register in the system. For this, they needed to choose between a monthly or annual 
-                    subscription (they could pause it later but my client wanted this mandatory).
-                    They would be asked for their credit card information which was processed by Stripe to create the subscription.
-                </label>
-                <br />
-                <br />
-                <label>
-                    Once registered, they could pause or cancel the subscription, and ask for one-time tarot reading.
-                    The reading could be pushed if the user paid more, and their request would be prioritized in the backend so that the frontend would know which to show first 
-                    to the tarot readers.
-                    Users had a dashboard with their requests like different conversations with the psychics, and would be notified upon receiving a new message.
-                </label>
-                <br />
-                <br />
-                <label>
-                    Selenium tests were developed so that we would automatically test the frontend changes.
-                </label>
-                <label></label>
-            </div>
-            <div id="techStack">
-                <label class="techStackTitle">Backend</label>
-                <br />
-                <label>Python, Django, Selenium, Stripe, OpenAI sdk</label>
-                <br />
-                <br />
-                <label class="techStackTitle">Database</label>
-                <br />
-                <label>Postgresql</label>
-                <br />
-                <br />
-                <label class="techStackTitle">Infrastructure</label>
-                <br />
-                <label>Azure, Github Actions</label>
-                <br />
-            </div>
-        </div>
-        <div id="lastImagesDiv">
-            <img id="imgLeft" src="images/tarot-project/tarot-project-1.png" />
-            <img id="imgRight" src="images/tarot-project/tarot-project-2.png" />
-        </div>
-        <br />
-    </div>
-    <div>
-    </div>
-    </custom-project>
-
+    <main id="projectDescriptionMain">
+    </main>
     <custom-footer></custom-footer>
-    <script>
-
-    </script>
 </body>
 
 </html>

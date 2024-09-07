@@ -16,81 +16,36 @@
     <script src="js/reusable_project_page.js"></script>
     <script src="js/custom_footer.js"></script>
     <link href="css/custom_footer.css" rel="stylesheet">
+    <script>
+        var projectJson = {
+            "logo_source": "images/logos/Sync.png",
+            "project_title": "Sync Labs",
+            "project_summary": "In this project the client wanted to analyze data and have a system where their own clients could see the analysis too. The data was focused around Environmental, Social and Governance spendings of different companies across the US.",
+            "project_overview_paragraphs": [
+                "First, users need to register and validate their email. After that they can log into the system and start submitting their information from .csv or .xlsx files.",
+                "They can share their data with other users, and see the dashboards of collections shared to them. In this case they don't have permission to download spreadsheets from shared collections but they can download their own (in case for example they lost the file).",
+                "Users can also submit information about one company (generally, their own) through a form, that was made similar to a Google Form (step-by-step pages). After a submission, the admin user would see a ticket generated in the system for them to check and approve this new data."
+            ],
+            "tech_stack": [
+                ["Frontend", "React, HTML, CSS, Chart.js, apexchart"],
+                ["Backend", "Python, Django"],
+                ["Database", "Postgresql"],
+            ],
+            project_images: [
+                "images/data-analysis-project/project1_environment.png",
+                "images/data-analysis-project/project1_overview.png"
+            ]
+        };
+    </script>
+    <script src="project-loader.js"></script>
 </head>
 
 <body>
     <script type="text/jsx" src="index.js"></script>
     <custom-header></custom-header>
-
-    <div>
-    </div>
-    <div id="projectDescriptionDiv">
-        <div id="logoTopDiv">
-            <img src="images/logos/Sync.png" id="logoTop" />
-        </div>
-        <div id="projectDiv">
-            <h2>Sync Labs</h2>
-            <label>
-                In this project the client wanted to analyze data and have a system
-                where their own clients could see the analysis too. The data was focused around Environmental, Social
-                and Governance spendings of different companies across the US.
-            </label>
-            <label></label>
-        </div>
-        <div id="overviewDiv">
-            <div id="overviewText">
-                <h3>Overview</h3>
-                <label>
-                    First, users need to register and validate their email. After that they can log into the 
-                    system and start submitting their information from .csv or .xlsx files.
-                </label>
-                <br />
-                <br />
-                <label>
-                    They can share their data with other users, and see the dashboards of collections 
-                    shared to them. In this case they don't have permission to download spreadsheets 
-                    from shared collections but they can download their own (in case for example they lost the file).
-                </label>
-                <br />
-                <br />
-                <label>
-                    Users can also submit information about one company (generally, their own) through a form, 
-                    that was made similar to a Google Form (step-by-step pages). After a submission, the 
-                    admin user would see a ticket generated in the system for them to check and approve this new data.
-                </label>
-                <label></label>
-            </div>
-            <div id="techStack">
-                <label class="techStackTitle">Frontend</label>
-                <br />
-                <label>React, HTML, CSS, Chart.js, apexchart</label>
-                <br />
-                <br />
-                <label class="techStackTitle">Backend</label>
-                <br />
-                <label>Python, Django</label>
-                <br />
-                <br />
-                <label class="techStackTitle">Database</label>
-                <br />
-                <label>Postgresql</label>
-                <br />
-            </div>
-        </div>
-        <div id="lastImagesDiv">
-            <img id="imgLeft" src="images/data-analysis-project/project1_environment.png" />
-            <img id="imgRight" src="images/data-analysis-project/project1_overview.png" />
-        </div>
-        <br />
-    </div>
-    <div>
-    </div>
-    </custom-project>
-
+    <main id="projectDescriptionMain">
+    </main>
     <custom-footer></custom-footer>
-    <script>
-
-    </script>
 </body>
 
 </html>
