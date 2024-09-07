@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const mainContent = `
                     <section id="logo">
                         <div id="logoTopDiv">
-                            <img src="${data.logo_source}" id="logoTop" />
+                            <img src="${data.logo_source}" id="logoTop" alt="logo for ${data.project_title}" />
                         </div>
                     </section>
                     <section id="summary">
@@ -69,6 +69,6 @@ document.addEventListener('DOMContentLoaded', function () {
             mainElement.innerHTML = mainContent;
         }
     } else {
-        console.log('Error loading project data:', error);
+        console.log('Error loading project data for', projectId);
     }
 });
