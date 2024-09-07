@@ -34,7 +34,7 @@ form {
     width: 100%;
 }
 
-#contactDiv {
+#contact {
     padding-left: 25vw;
     padding-right: 25vw;
     padding-top: 25vh;
@@ -73,7 +73,7 @@ form {
 }
 
 @media (max-width: 1100px) {
-    #contactDiv {
+    #contact {
         padding-top: 10vh;
         padding-right: 10vw;
         padding-left: 10vw;
@@ -84,7 +84,7 @@ form {
         height: 70px;
     }
 
-    #contactDiv label {
+    #contact p {
         font-size: 150%;
     }
 
