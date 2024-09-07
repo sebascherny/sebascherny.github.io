@@ -61,7 +61,7 @@ p {
     text-decoration: none;
     color: inherit;
     margin-right: 2em;
-    font-size: 0.9em;
+    font-size: 1.3vw;
 }
 
 .fa-gmail {
@@ -136,11 +136,11 @@ p {
 
     #hiH2 {
         height: 30px;
-        font-size: 50px;
+        font-size: 8vw;
     }
 
     .link_with_icon {
-        font-size: 1.5em;
+        font-size: 4.5vw;
     }
 
     #mailDiv {
@@ -186,6 +186,6 @@ p {
     }
 
     .aboutLabelTitle {
-        font-size: 2.6em;
+        font-size: 8vw;
     }
 }
