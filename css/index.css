@@ -71,6 +71,8 @@ img {
 
 #services {
     text-align: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
     padding-top: 3%;
     padding-bottom: 2%;
     font-size: 25px;
@@ -170,11 +172,6 @@ img {
     align-items: center;
 }
 
-.services-gallery {
-    padding-right: 10%;
-    padding-left: 10%;
-}
-
 .services-grid {
     display: grid;
     column-gap: 60px;
@@ -211,8 +208,6 @@ img {
     }
 
     #services {
-        padding-left: 10vw;
-        padding-right: 10vw;
         font-size: 45px;
     }
 
