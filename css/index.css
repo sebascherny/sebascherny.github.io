@@ -62,13 +62,11 @@ img {
 }
 
 .blockDiv {
-    height: 25vh;
+    height: 20vh;
     display: flex;
 }
 
 #latest-projects {
-    padding-left: 30vw;
-    padding-right: 30vw;
     text-align: center;
     padding-top: 10%;
     padding-bottom: 5%;
@@ -76,10 +74,8 @@ img {
 }
 
 #services {
-    padding-left: 30vw;
-    padding-right: 30vw;
     text-align: center;
-    padding-top: 10%;
+    padding-top: 3%;
     padding-bottom: 2%;
     font-size: 25px;
 }
@@ -221,6 +217,7 @@ img {
     #services {
         padding-left: 10vw;
         padding-right: 10vw;
+        font-size: 45px;
     }
 
     .presentationText {
@@ -248,10 +245,6 @@ img {
 
     #latest-projects {
         padding-top: 0%;
-        font-size: 45px;
-    }
-
-    #services {
         font-size: 45px;
     }
 
