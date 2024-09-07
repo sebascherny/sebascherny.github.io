@@ -13,80 +13,35 @@
     <link href="css/common.css" rel="stylesheet">
     <link href="css/header.css" rel="stylesheet">
     <script src="js/header.js"></script>
-    <script src="js/reusable_project_page.js"></script>
     <script src="js/custom_footer.js"></script>
     <link href="css/custom_footer.css" rel="stylesheet">
+    <script>
+        var projectJson = {
+            "logo_source": "images/logos/flock-logo-in-square.webp",
+            "project_title": "Smart Contracts Analysis",
+            "project_summary": "In this project the client wanted to do Smart Contracts' analysis, by downloading different reports (from certik, chainsulting, hacken, among others). The reports were sometimes in PDFs uploaded in a web, or directly in html format.",
+            "project_overview_paragraphs": [
+                "A web scraper was used to obtain the data and then it was parsed and stored in JSON files.",
+                "The JSON files were sent to an openai model to learn from different reports.",
+                "A small frontend was developed for users to upload their own smart contracts and get the response from the trained AI model, getting a kind of report about different type of issues found in the contract's code."
+            ],
+            "tech_stack": [
+                ["Frontend", "Javascript, HTML, CSS, Bootstrap"],
+                ["Backend", "Python, Django, JSON, unittest, tika"],
+                ["Web scraping (python libraries)", "BeautifulSoup, Selenium, requests"],
+                ["Infra", "Docker, AWS server"]
+            ],
+        };
+    </script>
+    <script src="js/project-loader.js"></script>
 </head>
 
 <body>
     <script type="text/jsx" src="index.js"></script>
     <custom-header></custom-header>
-
-    <div>
-    </div>
-    <div id="projectDescriptionDiv">
-        <div id="logoTopDiv">
-            <img src="images/logos/flock-logo-in-square.png" id="logoTop" />
-        </div>
-        <div id="projectDiv">
-            <h2>Smart Contracts Analysis</h2>
-            <label>
-                In this project the client wanted to do Smart Contracts' analysis, by downloading different reports (from certik, chainsulting, hacken, among others).
-                The reports were sometimes in PDFs uploaded in a web, or directly in html format.
-            </label>
-            <label></label>
-        </div>
-        <div id="overviewDiv">
-            <div id="overviewText">
-                <h3>Overview</h3>
-                <label>
-                    A web scraper was used to obtain the data and then it was parsed and stored in JSON files.
-                </label>
-                <br />
-                <br />
-                <label>
-                    The JSON files were sent to an openai model to learn from different reports.
-                </label>
-                <br />
-                <br />
-                <label>
-                    A small frontend was developed for users to upload their own smart contracts and get the response from the trained AI model,
-                    getting a kind of report about different type of issues found in the contract's code.
-                </label>
-                <label></label>
-            </div>
-            <div id="techStack">
-                <label class="techStackTitle">Frontend</label>
-                <br />
-                <label>Javascript, HTML, CSS, Bootstrap</label>
-                <br />
-                <br />
-                <label class="techStackTitle">Backend</label>
-                <br />
-                <label>Python, Django, JSON, unittest, tika</label>
-                <br />
-                <br />
-                <label class="techStackTitle">Web scraping (python libraries)</label>
-                <br />
-                <label>BeautifulSoup, Selenium, requests</label>
-                <br />
-                <br />
-                <label class="techStackTitle">Infra</label>
-                <br />
-                <label>Docker, AWS server</label>
-                <br />
-            </div>
-        </div>
-        <br />
-    </div>
-    <div>
-    </div>
-    </custom-project>
-
+    <main id="projectDescriptionMain">
+    </main>
     <custom-footer></custom-footer>
-    <script>
-
-    </script>
 </body>
 
 </html>

@@ -3,7 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Sebas' Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of Sebastian Cherny, senior Full-Stack Software Engineer specializing in web app development, data visualization, backend solutions, and automation. Experienced in AI, Solar Energy, and more.">
+    <title>Sebastian Cherny | Senior Full-Stack Software Engineer Portfolio</title>
+    <link rel="canonical" href="https://sebascherny.github.io/index.html">
     <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
     <link href='https://fonts.googleapis.com/css?family=Cormorant Garamond' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=El Messiri' rel='stylesheet'>
@@ -19,54 +23,57 @@
 
 <body>
     <custom-header></custom-header>
-    <div id="contactDiv">
-        <h1 class="title-font">Let's be in touch!</h1>
-        <label>Email me at
-            <a style="color: var(--variableShinyColor); text-decoration: none;
-            font-weight: bold;" href="mailto:sebascherny@gmail.com">sebascherny@gmail.com</a></label>
-        <br />
-        <label>Or you can directly schedule a meeting with me through
-            <a target="blank" style="color: var(--variableShinyColor); text-decoration: none;
-            font-weight: bold; font-style: italic;" href="https://calendly.com/sebascherny/30min">calendly</a></label>
-        <div class="blockDiv">
-        </div>
-        <div id="mailDiv">
-            <a target="blank" title="CV" class="link_with_icon" href="CV/CV_Sebastian_Cherny.pdf"
-                download="CV_Sebastian_Cherny">
-                cv
-            </a>
-            <a target="blank" title="linkedin" class="link_with_icon"
-                href="https://www.linkedin.com/in/sebascherny/">
-                linkedin
-            </a>
-            <a target="blank" title="github" class="link_with_icon" href="https://www.github.com/sebascherny">
-                github
-            </a>
-            <a target="blank" title="form" class="link_with_icon" href="https://bdpys1zcxyj.typeform.com/to/DTsD78bO">
-                form
-            </a>
-        </div>
-        <form style="display: none;">
-            <div class="form_div">
-                <label class="form_label">Name</label>
-                <br />
-                <input class="form_input" id="nameInput" type="text" name="name" required>
+    <main>
+        <section id="contact">
+            <h1 class="title-font">Let's be in touch!</h1>
+            <p>Email me at
+                <a style="color: var(--variableShinyColor); text-decoration: none;
+            font-weight: bold;" href="mailto:sebascherny@gmail.com">sebascherny@gmail.com</a></p>
+            <p>Or you can directly schedule a meeting with me through
+                <a target="blank" style="color: var(--variableShinyColor); text-decoration: none;
+            font-weight: bold; font-style: italic;" href="https://calendly.com/sebascherny/30min">calendly</a></p>
+            <div class="blockDiv">
             </div>
-            <div class="form_div">
-                <label class="form_label">Mail</label>
-                <br />
-                <input class="form_input" id="mailInput" type="mail" name="mail" required pattern=".+@.+\..+">
+            <div id="mailDiv">
+                <a target="blank" title="CV" class="link_with_icon" href="CV/CV_Sebastian_Cherny.pdf"
+                    download="CV_Sebastian_Cherny">
+                    cv
+                </a>
+                <a target="blank" title="linkedin" class="link_with_icon"
+                    href="https://www.linkedin.com/in/sebascherny/">
+                    linkedin
+                </a>
+                <a target="blank" title="github" class="link_with_icon" href="https://www.github.com/sebascherny">
+                    github
+                </a>
+                <a target="blank" title="form" class="link_with_icon"
+                    href="https://bdpys1zcxyj.typeform.com/to/DTsD78bO">
+                    form
+                </a>
             </div>
-            <div class="form_div">
-                <label class="form_label">Message</label>
-                <br />
-                <textarea class="form_input" required id="messageTextarea" style="height: 80px;" type="text"
-                    name="message"></textarea>
-            </div>
-            <p id="thanksMessage" style="display: none">Thanks! I'll be in touch soon :)</p>
-            <button class="niceButton" id="submitButton" type="submit" onclick="return sendMessage();">Submit</button>
-        </form>
-    </div>
+            <form style="display: none;">
+                <div class="form_div">
+                    <p class="form_label">Name</p>
+                    <br />
+                    <input class="form_input" id="nameInput" type="text" name="name" required>
+                </div>
+                <div class="form_div">
+                    <label class="form_label">Mail</label>
+                    <br />
+                    <input class="form_input" id="mailInput" type="mail" name="mail" required pattern=".+@.+\..+">
+                </div>
+                <div class="form_div">
+                    <label class="form_label">Message</label>
+                    <br />
+                    <textarea class="form_input" required id="messageTextarea" style="height: 80px;" type="text"
+                        name="message"></textarea>
+                </div>
+                <p id="thanksMessage" style="display: none">Thanks! I'll be in touch soon :)</p>
+                <button class="niceButton" id="submitButton" type="submit"
+                    onclick="return sendMessage();">Submit</button>
+            </form>
+        </section>
+    </main>
 
 
     <script>

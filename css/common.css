@@ -1,3 +1,7 @@
+body, main {
+    background: var(--variableBackgroundColor);
+}
+
 @font-face {
     src: url("fonts/MazzardH-ExtraLight.otf") format("opentype");
     font-family: Mazzard;

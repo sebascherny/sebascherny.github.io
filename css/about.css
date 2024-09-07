@@ -1,7 +1,3 @@
-body {
-    background: var(--variableBackgroundColor);
-}
-
 #pictureDiv {
     min-width: 40%;
     width: 50%;
@@ -21,7 +17,7 @@ body {
     color: var(--variableFontColor);
 }
 
-#aboutDiv {
+.personalInfoSection {
     display: flex;
     padding-left: 15vw;
     padding-right: 15vw;
@@ -32,7 +28,7 @@ body {
 .aboutDivClass {
     margin-left: 15vw;
     margin-right: 15vw;
-    padding-top: 10vh;
+    padding-top: 9vh;
     width: auto;
     margin-top: 12vh;
     border-top: 1px solid;
@@ -40,7 +36,6 @@ body {
 
 .aboutDescriptionDiv {
     display: flex;
-    margin-top: 2vh;
 }
 
 #aboutTextDiv {
@@ -49,10 +44,11 @@ body {
     row-gap: 15px;
 }
 
-#aboutTextDiv label {
+p {
     text-align: justify;
     color: var(--variableFontColor);
     font-size: 0.8em;
+    line-height: 1.4;
 }
 
 #iconsDiv,
@@ -65,7 +61,7 @@ body {
     text-decoration: none;
     color: inherit;
     margin-right: 2em;
-    font-size: 0.9em;
+    font-size: 1.3vw;
 }
 
 .fa-gmail {
@@ -87,16 +83,20 @@ body {
 
 .aboutLabelTitle {
     font-weight: bold;
-    margin-bottom: 5vh;
+    font-size: 1em;
+    margin-bottom: 2vh;
+    margin-top: 0;
 }
 
 .aboutLabelSubtitle {
     font-size: 0.8em;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+    margin-top: 0;
 }
 
 .aboutLabelSubSubtitle {
     font-size: 0.7em;
+    margin-top: 0;
 }
 
 @media (max-width: 1100px) {
@@ -107,7 +107,7 @@ body {
         margin-bottom: 2em;
     }
 
-    #aboutDiv {
+    .personalInfoSection {
         display: block;
         padding-top: 15vh;
         font-size: 1em;
@@ -115,12 +115,16 @@ body {
         padding-right: 10vw;
     }
 
+    .personalInfoSection p {
+        margin-top: 10px;
+    }
+
     #aboutTextDiv {
         row-gap: 3vh;
         width: 100%;
     }
 
-    #aboutDiv label {
+    p {
         font-size: 1.2em;
         font-weight: lighter;
     }
@@ -132,11 +136,11 @@ body {
 
     #hiH2 {
         height: 30px;
-        font-size: 50px;
+        font-size: 8vw;
     }
 
     .link_with_icon {
-        font-size: 1.5em;
+        font-size: 4.5vw;
     }
 
     #mailDiv {
@@ -172,16 +176,16 @@ body {
     }
 
     .aboutLabelSubtitle {
-        font-size: 2.3em;
-        margin-bottom: -20px;
+        font-size: 1.6em;
+        margin-bottom: 0px;
     }
 
     .aboutLabelSubSubtitle {
-        font-size: 1.6em;
+        font-size: 1.2em;
         margin-bottom: 20px;
     }
 
     .aboutLabelTitle {
-        font-size: 2.6em;
+        font-size: 8vw;
     }
 }

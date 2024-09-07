@@ -13,79 +13,39 @@
     <link href="css/common.css" rel="stylesheet">
     <link href="css/header.css" rel="stylesheet">
     <script src="js/header.js"></script>
-    <script src="js/reusable_project_page.js"></script>
     <script src="js/custom_footer.js"></script>
     <link href="css/custom_footer.css" rel="stylesheet">
+    <script>
+        var projectJson = {
+            "logo_source": "images/logos/heating.webp",
+            "project_title": "Food Heating Prediction",
+            "project_summary": 'In this project the client wanted a web application to allow users to register and create different requests for tarot card readings. Also, non-subscribed users could request one-time 1, 3 or 5-card readings, and also ask for a "rush" reading, that would be done in less than 24 hours.',
+            "project_overview_paragraphs": [
+                "With the use of different mathematical models, best fitting curves were used to predict heating time while receiving the data on live.",
+                "Exponential, quadratic and linear models are used in every fixed-length window together with a validation " +
+                "window to decide which model fits the data best and use it to inform the user. " + 
+                "These information would be shown in the product but for the scope of my project I ran and displayed everything on the screen using Google Colab.",
+                "The user handed me some experiments with all the information from the sensors to use them to test and compare different algorithms."
+            ],
+            "tech_stack": [
+                ["Backend", "Python"],
+                ["Frameworks & Libraries", "Google Colab, matplotlib, numpy, pandas, sklearn, unittest"]
+            ],
+            project_images: [
+                "images/heating-prediction-project/img6.png",
+                "images/heating-prediction-project/img5.png"
+            ]
+        };
+    </script>
+    <script src="js/project-loader.js"></script>
 </head>
 
 <body>
     <script type="text/jsx" src="index.js"></script>
     <custom-header></custom-header>
-
-    <div>
-    </div>
-    <div id="projectDescriptionDiv">
-        <div id="logoTopDiv">
-            <img src="images/logos/heating.png" id="logoTop" />
-        </div>
-        <div id="projectDiv">
-            <h2>Food Heating Prediction</h2>
-            <label>
-                I worked hand in hand with the client to improve a prediction algorithm in order to be able to 
-                model food heating and estimate when it would reach a desired temperature.
-                The algorithm would receive registered temperatures from 7 sensors inserted 
-                in the food every 5 seconds and update the model and estimated time.
-            </label>
-            <label></label>
-        </div>
-        <div id="overviewDiv">
-            <div id="overviewText">
-                <h3>Overview</h3>
-                <label>
-                    With the use of different mathematical models, best fitting curves were used to predict heating time
-                    while receiving the data on live.
-                </label>
-                <br />
-                <br />
-                <label>
-                    Exponential, quadratic and linear models are used in every fixed-length window together with a validation
-                    window to decide which model fits the data best and use it to inform the user.
-                    These information would be shown in the product but for the scope of my project I ran and displayed everything on the screen using Google Colab.
-                </label>
-                <br />
-                <br />
-                <label>
-                    The user handed me some experiments with all the information from the sensors to use them to test and compare 
-                    different algorithms.
-                </label>
-                <label></label>
-            </div>
-            <div id="techStack">
-                <label class="techStackTitle">Backend</label>
-                <br />
-                <label>Python</label>
-                <br />
-                <br />
-                <label class="techStackTitle">Frameworks & Libraries</label>
-                <br />
-                <label>Google Colab, matplotlib, numpy, pandas, sklearn, unittest</label>
-                <br />
-            </div>
-        </div>
-        <div id="lastImagesDiv">
-            <img id="imgLeft" src="images/heating-prediction-project/img6.png" />
-            <img id="imgRight" src="images/heating-prediction-project/img5.png" />
-        </div>
-        <br />
-    </div>
-    <div>
-    </div>
-    </custom-project>
-
+    <main id="projectDescriptionMain">
+    </main>
     <custom-footer></custom-footer>
-    <script>
-
-    </script>
 </body>
 
 </html>

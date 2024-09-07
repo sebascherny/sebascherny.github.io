@@ -13,85 +13,38 @@
     <link href="css/common.css" rel="stylesheet">
     <link href="css/header.css" rel="stylesheet">
     <script src="js/header.js"></script>
-    <script src="js/reusable_project_page.js"></script>
     <script src="js/custom_footer.js"></script>
     <link href="css/custom_footer.css" rel="stylesheet">
+    <script>
+        var projectJson = {
+            "logo_source": "images/logos/SEN.webp",
+            "project_title": "Solar Bay Area",
+            "project_summary": "In this project the client wanted to centralize information coming from different APIs. The system should retrieve the information, compare it with expected values, and send automatic emails when inconsistencies were found.",
+            "project_overview_paragraphs": [
+                "First, users need to register and validate their email. After that they can log into the system and link their account with an installed solar system.",
+                "When linking these two systems they would be able to see the information about the installed system that a third-party API had, and also they can start seeing graphs of energy production in different time periods.",
+                "This system allowed the users to have an understandable system with only the relevant information, and get notified without the system technician having to manually check the information for possible issues."
+            ],
+            "tech_stack": [
+                ["Frontend", "React, HTML, CSS, Chart.js, Bootstrap"],
+                ["Backend", "Python, Django, unittest"],
+                ["Database", "Postgresql"]
+            ],
+            "project_images": [
+                "images/solar-energy-project/img4.png",
+                "images/solar-energy-project/img5.jpeg"
+            ]
+        };
+    </script>
+    <script src="js/project-loader.js"></script>
 </head>
 
 <body>
     <script type="text/jsx" src="index.js"></script>
     <custom-header></custom-header>
-
-    <div>
-    </div>
-    <div id="projectDescriptionDiv">
-        <div id="logoTopDiv">
-            <img src="images/logos/SEN.png" id="logoTop" />
-        </div>
-        <div id="projectDiv">
-            <h2>Solar Bay Area</h2>
-            <label>
-                In this project the client wanted to centralize information coming from different APIs.
-                The system should retrieve the information, compare it
-                with expected values, and send automatic emails when inconsistencies were found.
-            </label>
-            <label></label>
-        </div>
-        <div id="overviewDiv">
-            <div id="overviewText">
-                <h3>Overview</h3>
-                <label>
-                    First, users need to register and validate their email. After that they can log into the
-                    system and link their account with an installed solar system.
-                </label>
-                <br />
-                <br />
-                <label>
-                    When linking these two systems they would be able to see the information about the installed system
-                    that a third-party API had, and also they can start seeing graphs of energy production in different
-                    time periods.
-                </label>
-                <br />
-                <br />
-                <label>
-                    This system allowed the users to have an understandable system with only the relevant
-                    information,
-                    and get notified without the system technician having to manually check the information for possible
-                    issues.
-                </label>
-                <label></label>
-            </div>
-            <div id="techStack">
-                <label class="techStackTitle">Frontend</label>
-                <br />
-                <label>React, HTML, CSS, Chart.js, Bootstrap</label>
-                <br />
-                <br />
-                <label class="techStackTitle">Backend</label>
-                <br />
-                <label>Python, Django, unittest</label>
-                <br />
-                <br />
-                <label class="techStackTitle">Database</label>
-                <br />
-                <label>Postgresql</label>
-                <br />
-            </div>
-        </div>
-        <div id="lastImagesDiv">
-            <img id="imgLeft" src="images/solar-energy-project/img4.png" />
-            <img id="imgRight" src="images/solar-energy-project/img5.jpeg" />
-        </div>
-        <br />
-    </div>
-    <div>
-    </div>
-    </custom-project>
-
+    <main id="projectDescriptionMain">
+    </main>
     <custom-footer></custom-footer>
-    <script>
-
-    </script>
 </body>
 
 </html>
