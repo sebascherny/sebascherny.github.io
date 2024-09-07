@@ -115,6 +115,10 @@ p {
         padding-right: 10vw;
     }
 
+    .personalInfoSection p {
+        margin-top: 10px;
+    }
+
     #aboutTextDiv {
         row-gap: 3vh;
         width: 100%;
