@@ -265,7 +265,7 @@ img {
     .services-grid div:nth-child(8) { grid-area: item8; }
 
     .service-description {
-        font-size: 1.2vw;
+        font-size: 2vw;
     }
 
     .service-title {
@@ -273,7 +273,11 @@ img {
     }
 
     .model-hed {
-        font-size: 5.5vw;
+        font-size: 3.5vw;
+    }
+
+    .title-font {
+        font-size: 7vw;
     }
 
     .job-description {
@@ -283,6 +287,10 @@ img {
     .overlay {
         padding-left: 20%;
         padding-right: 20%;
+    }
+
+    .services-grid div {
+        margin-bottom: 0;
     }
 
 }
