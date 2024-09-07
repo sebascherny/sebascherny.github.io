@@ -2,6 +2,13 @@ html {
     scroll-behavior: smooth;
 }
 
+.presentationText {
+    display: block;
+    text-align: justify;
+    font-size: 1.3vw;
+    font-weight: 100;
+}
+
 img {
     min-width: 10em;
     max-width: 100%;
@@ -202,6 +209,12 @@ img {
 
     #services {
         font-size: 45px;
+    }
+
+    .presentationText {
+        display: block;
+        text-align: justify;
+        font-size: 4vw;
     }
 
     #presentationH1 {
