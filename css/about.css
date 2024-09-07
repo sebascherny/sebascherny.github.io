@@ -123,6 +123,9 @@ p {
     p {
         font-size: 1.2em;
         font-weight: lighter;
+    }
+
+    .aboutDescriptionDiv p {
         line-height: 2;
     }
 
