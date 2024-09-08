@@ -127,8 +127,8 @@ p {
         width: 100%;
     }
 
-    p {
-        font-size: 1.2em;
+    #aboutTextDiv p {
+        font-size: 0.9em;
         font-weight: lighter;
     }
 
@@ -179,16 +179,16 @@ p {
     }
 
     .aboutLabelSubtitle {
-        font-size: 1.6em;
+        font-size: 0.9em;
         margin-bottom: 0px;
     }
 
     .aboutLabelSubSubtitle {
-        font-size: 1.2em;
+        font-size: 0.7em;
         margin-bottom: 20px;
     }
 
     .aboutLabelTitle {
-        font-size: 8vw;
+        font-size: 1.2em;
     }
 }
