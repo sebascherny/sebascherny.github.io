@@ -33,7 +33,7 @@ form {
 #contact {
     padding-left: 25vw;
     padding-right: 25vw;
-    padding-top: 25vh;
+    padding-top: 15vh;
     padding-bottom: 0vh;
     text-align: center;
     color: var(--variableFontColor);
@@ -80,12 +80,30 @@ form {
         height: 70px;
     }
 
+    #contact p, .link_with_icon {
+        font-size: 1.3em;
+    }
+
+}
+
+@media (max-width: 700px) {
+    #contact {
+        padding-top: 10vh;
+        padding-right: 10vw;
+        padding-left: 10vw;
+    }
+
+    h1 {
+        font-size: 5em;
+        height: 70px;
+    }
+
     #contact p {
-        font-size: 150%;
+        font-size: 0.9em;
     }
 
     .link_with_icon {
-        font-size: 1.5em;
+        font-size: 0.9em;
     }
 
 }
