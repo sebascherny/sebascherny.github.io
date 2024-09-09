@@ -18,8 +18,8 @@
 
 .personalInfoSection {
     display: flex;
-    padding-left: 15vw;
-    padding-right: 15vw;
+    padding-left: 20vw;
+    padding-right: 20vw;
     padding-top: 15vh;
     width: 100%;
 }
@@ -27,9 +27,9 @@
 .aboutDivClass {
     margin-left: 15vw;
     margin-right: 15vw;
-    padding-top: 9vh;
+    padding-top: 3vh;
     width: auto;
-    margin-top: 6vh;
+    margin-top: 3vh;
     border-top: 1px solid;
 }
 
