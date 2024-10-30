@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of Sebastian Cherny, senior Full-Stack Software Engineer specializing in web app development, data visualization, backend solutions, and automation. Experienced in AI, Solar Energy, and more.">
+    <title>Sebastian Cherny | Senior Full-Stack Software Engineer Portfolio</title>
+    <meta property="og:title" content="Sebastian Cherny | Senior Full-Stack Software Engineer Portfolio">
+    <meta property="og:description"
+        content="Portfolio of Sebastian Cherny, senior Full-Stack Software Engineer specializing in web app development, data visualization, backend solutions, and automation. Experienced in AI, Solar Energy, and more.">
+    <link rel="canonical" href="https://sebascherny.github.io/index.html">
+    <meta property="og:url" content="https://sebascherny.github.io/index.html">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
+    <link href="css/project.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <script src="js/header.js"></script>
+    <script src="js/custom_footer.js"></script>
+    <link href="css/custom_footer.css" rel="stylesheet">
+    <script>
+        var projectJson = {
+            "logo_source": "images/logos/cost_estimation.webp",
+            "project_title": "Cost Estimation",
+            "project_summary": "In this project the client wanted to have users upload information about different products (called records or assets), giving them the possibility to upload it filling an editable PDF or from CSVs with multiple spreadsheet for faster creation.",
+            "project_overview_paragraphs": [
+                "First, users need to register (or admin would create the user). After that they can log into the system.",
+                "The user can create an Asset from scratch within a wizard, where each step was for a different table linked to the Asset. Circular buttons in the Wizard are clickable for user to navigate between steps (apart from Previous/Next step buttons).",
+                "The user can see the list of created Assets and download a CSV with its data (with the corresponding columns) to use as template for creating multiple similar products.",
+                "The user can fill an editable PDF with the values for each field within the product, and then upload it through the frontend to create a record in the database.",
+                "A selenium test was created to simulate the user flow, logging in, creating an Asset, and uploading a PDF. This was important to ensure that the system was working as expected, and to catch possible errors in future code changes. Also, the README specifies how to run the tests and make a code change for specific situations, given that the client wasn't expert in Python."
+            ],
+            "tech_stack": [
+                ["Frontend", "Javascript, HTML, CSS, Bootstrap"],
+                ["Backend", "Python, Django, unittest"],
+                ["Database", "Postgresql"]
+            ],
+            "project_images": [
+                "images/cost-estimation/img1.png",
+                "images/cost-estimation/img2.png",
+            ]
+        };
+    </script>
+    <script src="js/project-loader.js"></script>
+</head>
+
+<body>
+    <script type="text/jsx" src="index.js"></script>
+    <custom-header></custom-header>
+    <main id="projectDescriptionMain">
+    </main>
+    <custom-footer></custom-footer>
+</body>
+
+</html>

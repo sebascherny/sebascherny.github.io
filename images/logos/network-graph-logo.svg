@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- White background -->
+  <rect width="100" height="100" fill="white"/>
+  
+  <!-- Connection lines -->
+  <line x1="50" y1="50" x2="25" y2="25" stroke="#2d63c8" stroke-width="1.5"/>
+  <line x1="50" y1="50" x2="75" y2="25" stroke="#2d63c8" stroke-width="1.5"/>
+  <line x1="50" y1="50" x2="25" y2="75" stroke="#2d63c8" stroke-width="1.5"/>
+  <line x1="50" y1="50" x2="75" y2="75" stroke="#2d63c8" stroke-width="1.5"/>
+  <line x1="25" y1="25" x2="75" y2="25" stroke="#2d63c8" stroke-width="1.5"/>
+  <line x1="25" y1="75" x2="75" y2="75" stroke="#2d63c8" stroke-width="1.5"/>
+  <line x1="25" y1="25" x2="25" y2="75" stroke="#2d63c8" stroke-width="1.5"/>
+  <line x1="75" y1="25" x2="75" y2="75" stroke="#2d63c8" stroke-width="1.5"/>
+  <line x1="50" y1="20" x2="50" y2="50" stroke="#2d63c8" stroke-width="1.5"/>
+  <line x1="50" y1="50" x2="50" y2="80" stroke="#2d63c8" stroke-width="1.5"/>
+  <line x1="20" y1="50" x2="50" y2="50" stroke="#2d63c8" stroke-width="1.5"/>
+  <line x1="50" y1="50" x2="80" y2="50" stroke="#2d63c8" stroke-width="1.5"/>
+  
+  <!-- Network nodes -->
+  <circle cx="50" cy="50" r="5" fill="#2d63c8"/>
+  <circle cx="25" cy="25" r="3.5" fill="#2d63c8"/>
+  <circle cx="75" cy="25" r="3.5" fill="#2d63c8"/>
+  <circle cx="25" cy="75" r="3.5" fill="#2d63c8"/>
+  <circle cx="75" cy="75" r="3.5" fill="#2d63c8"/>
+  <circle cx="50" cy="20" r="3" fill="#2d63c8"/>
+  <circle cx="50" cy="80" r="3" fill="#2d63c8"/>
+  <circle cx="20" cy="50" r="3" fill="#2d63c8"/>
+  <circle cx="80" cy="50" r="3" fill="#2d63c8"/>
+  <circle cx="35" cy="35" r="2.5" fill="#2d63c8"/>
+  <circle cx="65" cy="35" r="2.5" fill="#2d63c8"/>
+  <circle cx="35" cy="65" r="2.5" fill="#2d63c8"/>
+  <circle cx="65" cy="65" r="2.5" fill="#2d63c8"/>
+</svg>
