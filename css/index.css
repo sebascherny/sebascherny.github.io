@@ -2,12 +2,79 @@ html {
     scroll-behavior: smooth;
 }
 
+.title-font-capitalize {
+    text-transform: capitalize;
+}
+
 .presentationText {
     display: block;
     text-align: justify;
     font-size: 1.3vw;
     font-weight: 100;
 }
+
+.presentationText-bold {
+    font-weight: bold;
+}
+
+.presentationText-small {
+    font-size: 1vw;
+}
+.sectionAdded {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 8%;
+    width: 80%;
+    max-width: 1024px;
+}
+
+.sectionAdded h2 {
+    text-align: center;
+}
+
+/* Faqs - start */
+
+.accordion {
+    width: 80%;
+    margin: 20px auto;
+    padding: 5% 0%;
+}
+
+.accordion h2 {
+    text-align: center;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ccc;
+}
+
+.accordion input {
+    display: none;
+}
+
+.accordion label {
+    display: block;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.accordion .content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding: 0 15px;
+}
+
+.accordion input:checked + label + .content {
+    max-height: 400px;
+    padding: 15px;
+}
+
+/* Faqs - end */
 
 img {
     min-width: 10em;
