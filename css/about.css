@@ -102,6 +102,20 @@ p {
     margin-top: 0;
 }
 
+.contactMeButton {
+    /* min-height: 35px; */
+    height: 100%;
+    text-align: center;
+    padding: 9px 15px;
+    vertical-align: middle;
+    text-decoration: none;
+    font-weight: bold;
+    /* width: 10vw; */
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+}
+
 @media (max-width: 1100px) {
     #pictureDiv {
         display: inline-block;
